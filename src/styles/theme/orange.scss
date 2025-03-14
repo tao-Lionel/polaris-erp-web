@@ -1,0 +1,71 @@
+.theme-orange {
+  .avue-header,
+  .avue-logo,
+  .tags-container {
+    background-color: rgb(255, 102, 0);
+  }
+  .avue-sidebar {
+    // background-color: #f99f44;
+    color: #ff6600;
+  }
+  .avue-top {
+    .el-menu-item {
+      i,
+      span {
+        color: #fff;
+      }
+      &:hover {
+        i,
+        span {
+          color: #fff;
+        }
+      }
+    }
+    .avue-breadcrumb {
+      color: #fff;
+      i {
+        color: #fff;
+      }
+    }
+    .top-search {
+      .el-input__inner {
+        color: #fff;
+      }
+      input::-webkit-input-placeholder,
+      textarea::-webkit-input-placeholder {
+        /* WebKit browsers */
+        color: #fff;
+      }
+      input:-moz-placeholder,
+      textarea:-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: #fff;
+      }
+      input::-moz-placeholder,
+      textarea::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: #fff;
+      }
+      input:-ms-input-placeholder,
+      textarea:-ms-input-placeholder {
+        /* Internet Explorer 10+ */
+        color: #fff;
+      }
+    }
+    .top-bar__right {
+      color: #fff;
+      .el-dropdown {
+        color: #fff;
+      }
+    }
+  }
+  .avue-layout {
+    .avue-left {
+      .el-menu-item {
+      }
+      .el-submenu .is-active::before {
+        background-color: #ff6600;
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+@import "../../style/base";
+
+.mobile {
+  width: 100%;
+  //font-size: pxToRem(28);
+  .van-ellipsis {
+    font-size: pxToRem(32);
+    line-height: pxToRem(88);
+  }
+
+  .van-tabs--line {
+    padding-top: pxToRem(88);
+
+    .van-tabs__wrap {
+      height: pxToRem(88);
+    }
+  }
+}
+
+.m-menu {
+  //display: inline-block;
+  box-sizing: border-box;
+  padding: pxToRem(20);
+  //width: 33.3%;
+  //margin: 0;
+  //text-align: center;
+  //border: 1px solid #000;
+}
+
+.m-history {
+  margin-bottom: pxToRem(20);
+}
+
+.m-clean-his {
+  position: absolute;
+  right: pxToRem(20);
+  top: pxToRem(10);
+  font-size: 12px;
+}
+
+.m-menu-title {
+  position: relative;
+  font-weight: 800;
+  font-size: pxToRem(28);
+  padding: pxToRem(10) pxToRem(0);
+  margin-bottom: pxToRem(20);
+  border-bottom: 1px solid #ebeef5;
+}
+
+.m-menu-item {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+
+  a {
+    width: 100%;
+    color: #333;
+  }
+}
+
+//.m-menu-icon {
+//  font-size: pxToRem(50);
+//}
+
+.m-menu-name {
+  line-height: pxToRem(80);
+}
+
+.m-disable-router {
+  color: #999;
+}
+
+[data-dpr] .mobile [class^="icon-"] {
+  font-family: "iconfont", serif !important;
+  /* 以下内容参照第三方图标库本身的规则 */
+  font-size: pxToRem(56) !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

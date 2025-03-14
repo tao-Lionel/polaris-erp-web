@@ -1,0 +1,46 @@
+.poreturn_detail {
+  .el-col {
+    margin: unset;
+  }
+  // .form .height3pxAndBackground {
+  //   height: 3px;
+  //   background: #e0e0e0;
+  // }
+  .form .el-form-item {
+    // margin-top: 5px;
+    // margin-bottom: 3px;
+  }
+  .form .marginTopAndBottom {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  // .form .marginTop20px {
+  //   margin-top: 20px;
+  // }
+
+  .form .floatRight {
+    float: right;
+  }
+
+  .supplier-name {
+    ::v-deep .el-form-item__label {
+      padding-left: 10px;
+    }
+  }
+  .poContract-detail {
+    // ::v-deep .el-form-item {
+    //   width: auto;
+    //   float: left;
+    //   overflow: hidden;
+    //   margin-left: 15px;
+    // }
+  }
+  .avue-crud {
+    padding: 0 8px 8px;
+    width: auto;
+  }
+  .el-form-item__content,
+  .el-select {
+    width: 100%;
+  }
+}

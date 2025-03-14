@@ -1,0 +1,53 @@
+.common {
+  .margin-lr-20 {
+    margin: 0 20px;
+  }
+
+  //内容整体样式
+  .grid-content {
+    min-height: 36px;
+    margin: 0 10px 10px;
+    background-color: #f6f9fb;
+    border-radius: 5px;
+    border: 1px solid #e9ecee;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 20;
+    .el-form {
+      width: calc(100% + 2px);
+      margin-left: -1px;
+      overflow: hidden;
+    }
+  }
+
+  //   ------------------弹框分割------------------
+  .ball {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #e9ecee;
+    position: absolute;
+  }
+  .cus-block-line {
+    position: relative;
+    padding-top: 10px;
+    border-top: 2px dotted #e9ecee;
+    margin: 10px 20px 0;
+    &::before {
+      display: block;
+      content: "";
+      @extend .ball;
+      left: -30px;
+      top: -10px;
+    }
+    &::after {
+      display: block;
+      content: "";
+      @extend .ball;
+      right: -30px;
+      top: -10px;
+    }
+  }
+}

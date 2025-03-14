@@ -1,0 +1,15 @@
+const mobile = {
+    state: {
+        mSideLeft: false
+    },
+    actions: {
+
+    },
+    mutations: {
+        MOBILE_SIDE_LEFT:state=> {
+            state.mSideLeft = true;
+        }
+    }
+}
+
+export default mobile

@@ -1,0 +1,56 @@
+#cus-common {
+  overflow: hidden;
+  height: 100%;
+  .common-container {
+    height: 85%;
+    overflow-y: scroll;
+    .btn-mid {
+      //height:6%;
+      // text-align: center;
+      .el-button {
+        font-size: x-large;
+      }
+    }
+    .el-form {
+      height: 100%;
+      .el-form-item__label {
+        font-size: 12px;
+      }
+    }
+    // .importantTop{
+    //     //height: 85%;
+    // }
+  }
+  .com-bottom {
+    height: 15%;
+  }
+  // padding: 0px;
+  // margin: 0;
+  .el-card__body {
+    padding: 0px;
+  }
+  .el-input {
+    width: 85%;
+  }
+  // .importantTop{
+  //     height: 80%;
+  // }
+  // .otherBottom{
+  //     height: 20%;
+  // }
+  .title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    // color: dodgerblue;
+    white-space: nowrap;
+    line-height: 40px;
+    display: block;
+  }
+  .com-bottom {
+    text-align: center;
+    .btn-save {
+      width: 80%;
+    }
+  }
+}

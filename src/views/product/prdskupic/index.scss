@@ -1,0 +1,35 @@
+#prdskupic {
+  .border-col {
+    border: #e9ecf1 solid 1px;
+    padding: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .dialog-img {
+    ::v-deep .el-upload-list__item,
+    ::v-deep .el-upload--picture-card,
+    ::v-deep .el-upload {
+      width: 110px;
+      height: 110px;
+      margin: 5px;
+    }
+    .i-center {
+      position: relative;
+      top: -14px;
+    }
+  }
+  .sku-code {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  ::v-deep .el-input {
+    width: auto;
+  }
+  .prdskupic-ul {
+    white-space: nowrap;
+    margin-bottom: 20px;
+  }
+  .prdskupic-ul li {
+    display: inline-block;
+  }
+}

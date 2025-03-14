@@ -1,0 +1,149 @@
+.avue-crud {
+  margin: 0 auto;
+  width: 100%;
+  .el-table th {
+    word-break: break-word;
+    color: rgba(0, 0, 0, 0.85);
+    background-color: #fafafa;
+  }
+  &__pagination {
+    position: relative;
+    height: 32px;
+    margin: 10px 0 0 0;
+    // padding: 10px 20px;
+    .el-pagination {
+      position: absolute;
+      right: 0;
+    }
+  }
+  &__form {
+    padding: 0 8px;
+  }
+  &__header {
+    margin-bottom: 5px;
+    & > .el-button {
+      padding: 12px 25px;
+    }
+    .el-tabs__item {
+      height: 35px;
+      line-height: 32px;
+    }
+    .el-button + .el-dropdown {
+      margin-left: 10px;
+    }
+  }
+  &__box {
+    box-shadow: none !important;
+    border: none;
+    .el-card__body,
+    .el-card__header {
+      padding: 0 !important;
+    }
+  }
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__menu {
+    // position: relative;
+    width: 100%;
+    min-height: 40px;
+    height: auto;
+    overflow: hidden;
+    // margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__left,
+  &__right {
+    // position: absolute;
+    height: auto;
+    overflow: hidden;
+  }
+  &__left {
+    left: 0;
+    display: flex;
+    .el-button {
+      margin-right: 5px;
+    }
+  }
+  &__right {
+    right: 0;
+    .el-button {
+      margin-left: 5px;
+    }
+  }
+  &__dialog {
+    .el-dialog__header {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      padding: 12px 20px;
+      background-color: #409eff;
+    }
+    .el-dialog__close {
+      color: #fff;
+      font-size: 18px;
+      &:hover {
+        color: #ffddff;
+      }
+    }
+    .el-dialog__title {
+      color: #fff;
+      font-size: 18px;
+    }
+    .el-dialog__headerbtn {
+      top: 18px;
+    }
+    &--overflow {
+      max-height: 400px;
+      overflow: hidden;
+      overflow-y: auto;
+    }
+  }
+  &__searchAdvanced {
+    .el-form-item {
+      margin-top: 5px;
+      margin-bottom: 0px;
+    }
+  }
+}
+
+.input-label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  transition: all 0.2s ease-out;
+  font-size: 13px;
+  color: #c0c4cc;
+  pointer-events: none;
+  line-height: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: 30px;
+  width: calc(100% - 5px);
+  box-sizing: border-box;
+}
+
+.el-date-editor {
+  .input-label {
+    padding-left: 30px;
+  }
+}
+
+.label-shrink {
+  transform: translateY(-160%);
+  font-size: 12px;
+  color: var(--primary-color);
+  background-color: #fff;
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+  width: auto;
+  max-width: 90%;
+}
+.input-field {
+  transition: border-color 0.2s ease-out;
+}

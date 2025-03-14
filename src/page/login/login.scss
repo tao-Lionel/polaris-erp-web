@@ -1,0 +1,309 @@
+#login {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  // 第二层
+  .bg2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url("./img/loginBack.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    // transform: rotateY(180deg);
+    .bg_center {
+      position: absolute;
+      top: -80px;
+    }
+    .left-bottom {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+    .right-top {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+
+  // 第三层
+  .login-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    //顶部文字显示样式
+    .top_tip {
+      position: absolute;
+      width: 100%;
+      padding: 50px;
+      overflow: hidden;
+      box-sizing: border-box;
+      .left_log {
+        float: left;
+        img {
+          width: 128px;
+        }
+        p {
+          margin-left: 40px;
+          font-size: 20px;
+          color: white;
+        }
+      }
+      .right_work {
+        float: right;
+        font-size: 14px;
+        color: white;
+        font-family: Arial Regular;
+      }
+    }
+    //中间部分
+    .login-weaper {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      .login-left {
+        float: left;
+        width: 50%;
+        margin-top: 13%;
+        position: relative;
+        // .login-info {
+        //   padding-left: 140px;
+        //   .login-info-title {
+        //     line-height: 90px;
+        //     color: #fff;
+        //   }
+        //   .login-info-item {
+        //     font-size: 14px;
+        //     line-height: 2.5;
+        //     color: #fff;
+        //   }
+        // }
+      }
+      //登录部分
+      .login-border {
+        height: 100%;
+        width: 50%;
+        // float: left;
+        // box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .login-main {
+        overflow: hidden;
+        margin: 0 auto;
+        width: 44%;
+        background: #fff;
+        box-sizing: border-box;
+        border-radius: 8px;
+        max-width: 400px;
+        box-shadow: 0px 0px 20px 10px rgba(52, 45, 35, 0.1);
+        .login-theme {
+          padding: 0 20px;
+          .login-title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80px;
+            font-weight: 500;
+            font-size: 20px;
+            text-align: center;
+            letter-spacing: 2px;
+            color: #2d2d2d;
+          }
+        }
+        .login-menu {
+          width: 100%;
+          height: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-top: 1px solid #ecedef;
+          a {
+            color: rgba(45, 45, 45, 0.85);
+            font-size: 14px;
+          }
+        }
+      }
+      .login-main > h3 {
+        margin-bottom: 20px;
+      }
+      .login-main > p {
+        color: #76838f;
+      }
+    }
+
+    .icp {
+      text-align: center;
+      width: 100%;
+      color: #fff;
+      position: absolute;
+      bottom: 20px;
+      transform: translate(-50%);
+      left: 50%;
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.login-form {
+  i {
+    color: #999;
+  }
+  .el-form-item {
+    height: 40px;
+  }
+  .el-form-item__content {
+    width: 100%;
+    height: 100%;
+  }
+  .el-form-item {
+    margin-bottom: 20px;
+  }
+  .el-input {
+    input {
+      text-indent: 5px;
+      background: transparent;
+      border-radius: 4px;
+      border: 1px solid #d6dadf;
+    }
+    .el-input__inner {
+      padding-left: 0px;
+      padding-right: 50px;
+    }
+    .el-input__prefix {
+      i {
+        padding: 0 5px;
+        font-size: 16px !important;
+      }
+    }
+  }
+  .login_yzm {
+    .el-form-item__content {
+      display: flex;
+    }
+    .el-input__inner {
+      padding: 0px;
+    }
+  }
+  .login-submit {
+    display: block !important;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 0px;
+    background-color: #46b1b0;
+  }
+  .login-code {
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 0 0 10px;
+  }
+  .login-code-img {
+    margin-top: 2px;
+    width: 100px;
+    height: 38px;
+    background-color: #fdfdfd;
+    border: 1px solid #f0f0f0;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    line-height: 38px;
+    text-indent: 5px;
+    text-align: center;
+  }
+}
+
+.login-select {
+  position: absolute !important;
+  right: 10px;
+  top: 10px;
+  width: 80px;
+  input {
+    color: #333;
+    border: none;
+    text-align: center;
+  }
+}
+.login-index {
+  margin-top: 40px !important;
+  width: 180px;
+  height: 48px;
+  text-align: center;
+  border-radius: 50px !important;
+  background: transparent !important;
+  color: #333 !important;
+  font-size: 16px !important;
+  border: 1px solid rgb(152, 22, 244);
+}
+
+@media screen and (max-height: 500px) {
+  .icp {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .icp {
+    bottom: 5px;
+  }
+}
+
+//企业微信的相关样式
+.login-type1 {
+  .login-title {
+    height: 60px;
+  }
+}
+// .login-type1{
+//   height: 64%;
+//   margin-top: 20%;
+//   width: 50%;
+//   .login-theme{
+//     height: 90%;
+//   }
+//   .login-title{
+//     height:12%;
+//   }
+//   .login-menu{
+//     height: 10%;
+//   }
+// }
+// @media (min-width:1680px) {
+//   .login-type1{
+//     height: 56%;
+//     margin-top: 20%;
+//   }
+// }
+@keyframes loginBgAnimation {
+  0% {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  50% {
+    width: 150%;
+    height: 150%;
+    top: -100px;
+  }
+  100% {
+    width: 200%;
+    height: 200%;
+    top: -150px;
+    left: -50px;
+    opacity: 0.8;
+  }
+}

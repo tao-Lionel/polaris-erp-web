@@ -1,0 +1,140 @@
+@media (max-width: 1279px) {
+  .avue-crud__menu .el-select {
+    width: auto !important;
+  }
+  .avue-crud__menu .el-input,
+  .avue-crud__searchAdvanced .el-input {
+    width: 140px;
+  }
+  .avue-crud__menu .el-form-item__label {
+    padding-right: 5px;
+  }
+  .avue-crud__header .el-form-item__label {
+    padding-right: 5px;
+  }
+  // .avue-crud__menu .el-input__inner{height: 32px;line-height: 32px;}
+  .el-form-item {
+    margin-bottom: 15px;
+  }
+  body,
+  .el-table {
+    font-size: 12px;
+  }
+  .el-table {
+    .el-button {
+      padding: 8px 20px;
+    }
+  }
+
+  .el-table--medium td {
+    padding: 0;
+  }
+} /*<=1279的设备*/
+@media (min-width: 1280px) {
+  .avue-crud__menu .el-select {
+    width: auto !important;
+  }
+  .avue-crud__menu .el-input,
+  .avue-crud__searchAdvanced .el-input {
+    width: 130px;
+  }
+  .avue-crud__menu .el-form-item__label {
+    padding-right: 3px;
+  }
+  .avue-crud__header .el-form-item__label {
+    padding-right: 3px;
+  }
+  .avue-crud__menu .el-input--suffix .el-input__inner {
+    padding-right: auto;
+  }
+  body,
+  .el-table {
+    font-size: 13px;
+  }
+  .el-table {
+    .el-button {
+      padding: 4px 10px;
+    }
+    td {
+      padding: 4px 0;
+    }
+  }
+  // .scrollView{
+  // .el-tag--info{display: inline-block;overflow: hidden;max-width: 42%;white-space: nowrap;text-overflow: ellipsis;}
+
+  // }
+} /*>=1280的设备*/
+
+@media (min-width: 1366px) {
+  .avue-crud__menu .el-input,
+  .avue-crud__searchAdvanced .el-input {
+    width: 140px;
+  }
+  .avue-crud__menu .el-form-item__label {
+    padding-right: 5px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .avue-crud__menu .el-input,
+  .avue-crud__searchAdvanced .el-input {
+    width: 160px;
+  }
+  body,
+  .el-table {
+    font-size: 14px;
+  }
+  // .el-table .el-button{padding: 12px 20px;}
+
+  .el-table td {
+    padding: 4px;
+  }
+  // .scrollView{
+  // .el-tag--info{max-width: 50%;}
+  // }
+}
+
+@media (min-width: 1680px) {
+  .avue-crud__menu .el-input,
+  .avue-crud__searchAdvanced .el-input {
+    width: 180px;
+  }
+}
+@media (min-width: 1920px) {
+  .avue-crud__menu .el-input,
+  .avue-crud__searchAdvanced .el-input {
+    width: 190px;
+  }
+}
+
+.el-select-dropdown__list {
+  max-width: 500px;
+}
+.el-menu--vertical {
+  background: #20222a;
+}
+.el-menu-item,
+.el-submenu__title {
+  color: #fff;
+}
+.el-menu-item:focus,
+.el-menu-item:hover,
+.el-submenu__title:hover {
+  color: #666;
+}
+
+@media (max-width: 750px) {
+  .avue-crud__menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .avue-crud__left {
+    width: auto !important;
+  }
+  .avue-crud__header {
+    margin-bottom: 0px !important;
+    .el-button {
+      margin-bottom: 5px;
+    }
+  }
+}

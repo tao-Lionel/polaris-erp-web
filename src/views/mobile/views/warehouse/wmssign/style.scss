@@ -1,0 +1,79 @@
+@import "../../../style/base";
+
+.m-sign {
+  //padding: pxToRem(20);
+  .m-title {
+    font-weight: bold;
+    font-size: pxToRem(34);
+    padding-bottom: pxToRem(10);
+    color: #333;
+  }
+
+  .m-base-con {
+    font-size: pxToRem(30);
+    color: #666;
+
+    li {
+      line-height: pxToRem(64);
+    }
+  }
+  //.icon-saomiao{
+  //  height: pxToRem(78);
+  //}
+  .m-base {
+    padding: pxToRem(30);
+    margin-bottom: pxToRem(20);
+    border-radius: pxToRem(20);
+    background: #fff;
+  }
+
+  .m-sign-btn {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #dcdfe6;
+    box-sizing: border-box;
+    padding: pxToRem(40) 0;
+
+    > button {
+      width: pxToRem(280);
+    }
+  }
+
+  .m-deliver-info {
+    padding: pxToRem(26) pxToRem(26) pxToRem(160);
+    background: #e5e8eb;
+  }
+
+  .m-adr {
+    display: flex;
+  }
+
+  .m-adr-tit {
+    white-space: nowrap;
+  }
+
+  .m-sign-tip {
+    color: #ff0000;
+    position: absolute;
+    right: pxToRem(10);
+  }
+
+  .m-deli-no {
+    position: relative;
+  }
+
+  .m-auto-search .el-input__inner {
+    height: pxToRem(80) !important;
+  }
+  .el-form {
+    padding: pxToRem(26);
+    background: #2a8efe;
+  }
+  .el-form-item {
+    margin: 0;
+  }
+}

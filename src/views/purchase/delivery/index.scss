@@ -1,0 +1,42 @@
+.delivery-wrapper {
+  .textCenter {
+    text-align: center;
+  }
+
+  .el-table {
+    .el-form-item {
+      margin-bottom: 0;
+    }
+  }
+  .el-form-item__content {
+    line-height: 32px;
+  }
+  .delivery-person-info {
+    margin-top: 30px;
+    .el-form-item {
+      margin-bottom: 10px;
+    }
+  }
+  // .de-t-item{margin: 0 20px;}
+  // .target-edit div{flex: 1;padding: 10px 20px;}
+
+  .iod-header {
+    margin: 0;
+  }
+  .iod-target {
+    width: 100%;
+  }
+  .poContract-detail ul {
+    position: absolute;
+    right: 20px;
+    top: 14px;
+  }
+
+  ::v-deep .el-form-item {
+    margin: 0;
+  }
+  .delive-box ::v-deep .el-input,
+  .delive-box ::v-deep .el-textarea {
+    width: 100% !important;
+  }
+}

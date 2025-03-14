@@ -1,0 +1,85 @@
+#sealSampleTable {
+  // .el-row {
+  //     margin-bottom: 20px;
+  //   }
+  // .el-col {
+  //   border-radius: 4px;
+  //   margin-bottom: 0px;
+  // }
+  .grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+  }
+  .row-bg {
+    padding: 10px 0;
+  }
+  // .sst-title{
+  //     // margin: 0 30px 30px 30px;
+  //     margin-bottom: 30px;
+  //     // border-bottom: 1px #999 solid;
+  //     position: relative;
+
+  //     p{
+  //           text-align: center;
+  //           line-height: 100px;
+  //           font-weight:500;
+  //           font-size:20px;
+  //     }
+  //    .sst-sku{
+  //        line-height: 80px;
+  //        text-align: center;
+  //        position: absolute;
+  //        bottom: -30px;
+  //        right: 30px;
+
+  //    }
+  // }
+
+  .el-form-item__label {
+    display: block;
+    text-align: left;
+  }
+  .grid-content {
+    // padding-left: 50px;
+    padding: 0px 20px;
+  }
+  .upload-demo {
+    padding: 20px;
+  }
+  //修改样式新添加
+  .el-dialog__header {
+    background-color: white;
+    border-bottom: 0px;
+  }
+  .box-info {
+    .el-form-item {
+      width: 45% !important;
+    }
+  }
+  .banner-text {
+    border-radius: 5px;
+    border: 1px solid #e9ecee;
+    margin-top: 12px;
+    .is-required {
+      width: 100%;
+    }
+    .el-form-item__content {
+      width: 100%;
+    }
+    .iod-header {
+      font-weight: bold;
+      // font-size: 16px;
+    }
+  }
+  .prd-title {
+    font-size: 22px;
+    display: inline-block;
+    font-weight: bold;
+  }
+  .prd-sku {
+    float: right;
+    line-height: 40px;
+    color: #808080;
+    padding-left: 30px;
+  }
+}

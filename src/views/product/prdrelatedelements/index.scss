@@ -1,0 +1,48 @@
+#prdrelatedelements {
+  //   .el-dialog__header{
+  //   height: 30px;
+  //   background: #e8ecef;
+  //   border-radius: 4px 4px 0 0;
+  //   border-bottom: 1px solid #d2d2d2;
+  // }
+  // .el-dialog__footer{
+  //   padding: 20px 24px;
+  //   border-top: 1px solid #d2d2d2;
+  //   clear: both;
+  //   background: #e8ecef;
+  //   border-radius: 0px 0px 4px 4px;
+  // }
+  .el-dialog__body {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .el-dialog .el-form-item {
+    margin-bottom: 0;
+  }
+  .add-form-style {
+    border: 1px solid #ebeef5;
+    border-bottom: unset;
+    .el-form-item {
+      border-bottom: 1px solid #ebeef5;
+    }
+    .el-form-item__label {
+      border-right: 1px solid #ebeef5;
+      width: 200px;
+    }
+    .el-form-item__content {
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      .el-form-item__error {
+        position: relative;
+        top: 0px;
+      }
+    }
+  }
+  .el-dialog__wrapper .el-form-item__content {
+    padding: 5px;
+    box-sizing: border-box;
+    line-height: 30px;
+  }
+}

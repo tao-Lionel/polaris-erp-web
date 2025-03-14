@@ -1,0 +1,687 @@
+// 全局变量
+@import "./variables.scss";
+// ele样式覆盖
+@import "./element-ui.scss";
+// 顶部右侧显示
+@import "./top.scss";
+// 导航标签
+@import "./tags.scss";
+// 工具类函数
+@import "./mixin.scss";
+// 侧面导航栏
+@import "./sidebar.scss";
+// 动画
+@import "./animate/vue-transition.scss";
+//主题
+@import "./theme/index.scss";
+//适配
+@import "./media.scss";
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+@include scrollBar();
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  outline: none !important;
+}
+
+body {
+  // font-family: "微软雅黑",Helvetica,"Helvetica Neue","DIN Medium", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+  // font-family: "新宋体", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial,
+    sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+//针对火狐浏览器滚动条样式
+* {
+  scrollbar-width: auto;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+em {
+  font-style: normal;
+}
+
+input,
+button,
+select,
+textarea {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+//为了使文本段落左右两边对齐
+p {
+  word-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+i {
+  display: inline-block;
+}
+
+/*a:hover { color: #f60; text-decoration:none; }*/
+
+address,
+cite,
+code,
+em,
+th {
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  color: #409eff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/*a:link{color:#009;}*/
+
+/*a:visited{color:#800080;}*/
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.padding {
+  padding: 0 !important;
+}
+
+.margin {
+  margin: 0 !important;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.pull-center {
+  text-align: center;
+}
+
+.pull-flex {
+  display: flex;
+}
+
+.pull-overflow {
+  overflow: hidden;
+}
+
+.pull-auto {
+  height: auto;
+  overflow: hidden;
+}
+
+.pull-height {
+  height: 100%;
+  overflow: hidden;
+}
+
+.pull-fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.grayMode {
+  filter: grayscale(100%);
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+} //main-container全局样式
+.app-main {
+  min-height: 100%;
+}
+
+.filter-container {
+  padding-bottom: 10px;
+  .filter-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+}
+
+.app-container {
+  height: 100%;
+  // padding: 20px;
+  box-sizing: border-box;
+}
+
+.pagination-container {
+  padding: 20px 0;
+  float: right;
+}
+
+.y-cursor {
+  cursor: pointer;
+}
+.y-icon-edit,
+.y-icon-delect,
+.y-icon-add,
+.y-reviews {
+  margin: 0 5px;
+  color: $mainBg;
+  @extend .y-cursor;
+}
+// .y-reviews{color:$mainBg;}
+.y-upload {
+  color: #ee0c0c;
+  @extend .y-cursor;
+}
+.el-badge__content.is-fixed {
+  top: 8px;
+  right: 8px;
+}
+
+.avue-crud {
+  .el-table {
+    .el-checkbox__inner {
+      width: 18px;
+      height: 18px;
+    }
+    .el-table__header-wrapper .el-table-column--selection > div {
+      padding: 0;
+    }
+
+    .el-checkbox__inner::after {
+      height: 9px;
+      left: 6px;
+      top: 2px;
+    }
+
+    .el-checkbox__input.is-indeterminate .el-checkbox__inner::before {
+      top: 7px;
+    }
+
+    .el-table--medium th {
+      padding: 10px 0;
+    }
+    thead {
+      color: #2c2f2f;
+    }
+    // .el-table__row td:first-child{
+    // text-align: center;
+    // }
+    .el-table__header-wrapper .el-table-column--selection .cell {
+      justify-content: center;
+    }
+
+    .el-textarea {
+      vertical-align: middle;
+    }
+  }
+}
+
+.el-input__inner {
+  padding: 0 8px;
+}
+
+.el-input__inner[type="number"] {
+  line-height: 1px !important;
+}
+
+.flex-spance-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+.target-title {
+  padding: 12px 18px;
+  background: #f6f9fb;
+  border-bottom: 1px solid #e7ebef;
+  position: relative;
+  vertical-align: middle;
+}
+.target-title .el-select,
+.target-title .el-input {
+  width: 100% !important;
+}
+
+.target-title::before {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 16px;
+  background: $mainBg;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.border-rang {
+  border: 1px solid #e7ebef;
+  border-radius: 4px; /*overflow: hidden;*/
+}
+
+.text-overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.el-row-text {
+  //超出隐藏
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+body {
+  .avue-crud__menu .el-date-editor--daterange {
+    width: 250px;
+  }
+  .common-loading {
+    transition: unset !important;
+    z-index: 9999 !important;
+  }
+  .el-dialog {
+    border-radius: 5px;
+    overflow: hidden;
+    .el-dialog__header {
+      padding: 8px 20px;
+      text-align: left;
+      background: #fafafa;
+      color: #141f2e;
+      border-bottom: 1px solid #eceef5;
+    }
+    .el-dialog__title {
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .el-dialog__body {
+      padding: 10px;
+    }
+    .el-form .is-required {
+      margin-bottom: 20px;
+    }
+    // .el-form-item===>margin-bottom: 12px;
+    .el-form-item {
+      display: flex !important;
+      white-space: nowrap;
+      margin-bottom: 10px;
+      .el-input {
+        width: 100%;
+      }
+    }
+    .el-form-item__content,
+    .el-select {
+      width: 100%;
+    }
+    .el-dialog__footer {
+      background: #fafafa;
+      border-top: 1px solid #eceef5;
+      padding: 20px;
+      text-align: center;
+    }
+    .el-dialog__headerbtn {
+      top: 12px;
+    }
+  }
+
+  .el-form .el-table__body-wrapper td {
+    padding: 10px 4px 0px 4px !important;
+  }
+
+  .el-table .el-table__body-wrapper {
+    .el-form-item {
+      margin-bottom: 10px;
+    }
+    .cell {
+      overflow: inherit;
+    }
+    .el-form-item__error {
+      z-index: 3;
+      bottom: -10px;
+      top: auto;
+      white-space: nowrap;
+    }
+  }
+  .handle-cell-hidden .el-table__body-wrapper {
+    .cell {
+      overflow: hidden;
+    }
+  }
+
+  .el-select__tags {
+    //空时select多多选，由于文字太长而超出
+    height: 100%;
+    flex-wrap: nowrap;
+    //@extend .el-row-text;
+    //span{white-space: nowrap;}
+    //>span{@extend .el-row-text;position: absolute;transform: translateY(-50%);top: 50%;width: 100%;display: inline-block!important;}
+    > span {
+      @extend .el-row-text;
+      position: relative;
+      max-width: 70%;
+      width: auto;
+      display: inline-block !important;
+    }
+    .el-icon-close {
+      display: none;
+    }
+  }
+  // 去掉全屏下的loading颜色,渐变颜色跟黑色有冲突,其他loading-mask颜色不变
+  > .el-loading-mask {
+    background: transparent;
+  }
+  .a-no-line {
+    text-decoration: none;
+  }
+  .el-dropdown__icon {
+    vertical-align: top;
+  }
+}
+
+// 新建、编辑等基本布局样式
+.scrollView {
+  .iod-header-title {
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+  .iod-header {
+    margin-bottom: 20px;
+    white-space: nowrap;
+    padding: 14px 18px;
+    background: #f6f9fb;
+    border: 1px solid #e7ebef;
+  }
+  .iod-header-content {
+    padding: 0 20px 0 50px;
+    width: 100%;
+  }
+  .iod-target {
+    font-weight: bold;
+  }
+  .iod-address {
+    // padding: 14px 18px;
+    padding: 8px;
+  }
+  .iod-address-name {
+    border-radius: 5px;
+  }
+  .iod-address-title {
+    line-height: 32px;
+  }
+  .text-align-right {
+    text-align: right;
+  }
+  .inline-class {
+    display: inline-block;
+  }
+}
+
+.mg-b-10 {
+  margin-bottom: 10px;
+}
+.mg-b-15 {
+  margin-bottom: 15px;
+}
+.mg-b-20 {
+  margin-bottom: 20px;
+}
+.mg-b-30 {
+  margin-bottom: 30px;
+}
+
+.flex-1 {
+  flex: 1;
+  padding: 14px 12px;
+}
+// .flex-1:nth-child(odd){border-right: 1px solid #e7ebef}
+
+.de-t-item {
+  margin: 0 20px;
+}
+
+//dialoag横向和纵向拉升，打开后，当有固定表格时，容易出现dialog拉伸，但内容却不变
+.el-dialog {
+  resize: both;
+}
+.el-dialog::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: se-resize;
+  width: 16px;
+  height: 16px;
+  background: url("./img/resize.png") center no-repeat;
+  background-size: 100% 100%;
+}
+
+.el-card__body {
+  @extend .pull-overflow;
+}
+.table-opration {
+  width: 60px;
+  text-align: left;
+  white-space: nowrap;
+}
+.el-table--medium td {
+  padding: 4px !important;
+}
+
+.el-form .el-table--medium td {
+  padding: 10px 4px !important;
+}
+
+// 覆盖按钮样式
+.el-button--small,
+.el-button--small.is-round {
+  padding: 7px 15px;
+}
+// .el-button--mini, .el-button--small{font-size: 14px;}
+// 适配列表头部
+body {
+  .avue-crud__left {
+    // position: relative;
+  }
+  .avue-crud__right {
+    top: 0;
+  }
+}
+.el-input.is-disabled {
+  .el-input__inner {
+    color: #606266;
+  }
+}
+
+.el-table .cell {
+  padding: 0 8px;
+}
+
+.needChangeSelect {
+  .el-form-item__content {
+    display: flex;
+    align-items: center;
+    height: 41px;
+  }
+
+  .el-input-group--prepend {
+    width: auto;
+    > input {
+      width: 150px;
+    }
+  }
+
+  .el-input-group__prepend {
+    .el-select {
+      width: 110px !important;
+
+      .el-input {
+        width: 110px !important;
+      }
+    }
+  }
+}
+
+.needChangeTime {
+  .el-form-item__content {
+    display: flex;
+    align-items: center;
+  }
+  .el-select {
+    width: 130px !important;
+
+    .el-input {
+      width: 130px !important;
+    }
+  }
+}
+
+.needChangeSelect {
+  .el-form-item__content {
+    display: flex;
+    align-items: center;
+    height: 41px;
+  }
+
+  .el-input-group--prepend {
+    width: auto;
+    > input {
+      width: 150px;
+    }
+  }
+
+  .el-input-group__prepend {
+    .el-select {
+      width: 110px !important;
+
+      .el-input {
+        width: 110px !important;
+      }
+    }
+  }
+}
+
+.needChangeTime {
+  .el-form-item__content {
+    display: flex;
+    align-items: center;
+  }
+  .el-select {
+    width: 130px !important;
+
+    .el-input {
+      width: 130px !important;
+    }
+  }
+}
+
+.dialogShowScroll {
+  ::-webkit-scrollbar {
+    opacity: 1 !important;
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: transparent !important;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgba(188, 191, 193, 0.4);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(188, 191, 193, 0.75);
+  }
+}

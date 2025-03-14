@@ -1,0 +1,328 @@
+$border: 1px solid #ebeef5;
+.border-r {
+  border-radius: 4px;
+  overflow: hidden;
+}
+#prdDetail {
+  .el-tabs__content {
+    background: #f7f8fb;
+    padding: 10px;
+    border-top: unset;
+  }
+  .val-color {
+    color: #999;
+  }
+  .el-carousel__item h3 {
+    color: hsl(214, 19%, 35%);
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 200px;
+    margin: 0;
+  }
+
+  .el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+  }
+
+  // .el-carousel__item:nth-child(2n + 1) {
+  //   background-color: #d3dce6;
+  // }
+  // .grid-custom {
+  //   padding: 10px;
+  // }
+
+  .prod-status {
+    display: flex;
+    color: #808080;
+    border: 1px solid #ebeef5;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+  }
+  .sku-name {
+    line-height: 40px;
+    font-size: 15px;
+  }
+  .prod-status > li {
+    flex: 1;
+  }
+  .prod-status > li:first-child,
+  .prod-item:first-child,
+  .prod-item:nth-child(3) {
+    border-right: 1px solid #ebeef5;
+  }
+
+  .prod-item {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0;
+    width: 50%;
+    line-height: 32px;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0 10px;
+    vertical-align: top;
+    text-overflow: ellipsis;
+  }
+
+  .prod-item:first-child,
+  .prod-item:nth-child(2) {
+    border-bottom: 1px solid #ebeef5;
+  }
+  .prd-sku-select {
+    display: flex;
+    .el-tabs__content {
+      display: none;
+    }
+    .el-input {
+      margin-top: 5px;
+    }
+  }
+  .pd-name {
+    display: block;
+    overflow: hidden;
+    width: 90%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  // .prd-sku-select{
+  //   display: flex;
+  // }
+  .el-select {
+    margin-left: 20px;
+    // background: #f7f8fb;
+  }
+  .prod-info {
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .pd-table-wrapper {
+    // display: flex;
+    // overflow: hidden;
+    // position: relative;
+
+    //修改
+    width: 100%;
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+    overflow: hidden;
+    .pd-feed-price {
+      // min-width: 100px;
+      // display: flex;
+      // text-align: center;
+      // justify-content:center;
+      // align-items: center;
+      // font-size: 14px;
+      // position: relative;
+
+      //修改
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-top: $border;
+      border-bottom: $border;
+      border-left: $border;
+      // border-right: 1px #d3dce6 dashed;
+      padding: 16px;
+      box-sizing: border-box;
+    }
+
+    // .pd-feed-price::after{
+    //   display: block;
+    //   content: "";
+    //   height: 70%;
+    //   border-right: 1px #d3dce6 dashed';
+    // }
+
+    .pd-feed-p {
+      // padding:10px;
+      // line-height: 200px;
+
+      //修改
+      width: 100%;
+      text-align: center;
+    }
+
+    // 添加
+    .pd-table-box {
+      margin-left: 60px;
+      // margin-right:10px;
+      position: relative;
+      thead th {
+        padding: 8px 0;
+      }
+      .el-table__row {
+        color: #808080;
+      }
+    }
+  }
+  .prod-list-w {
+    margin-bottom: 10px;
+    border: $border;
+    background: #fff;
+    @extend .border-r;
+    .prod-list-b {
+      display: flex;
+    }
+    .p-l-t {
+      padding: 10px 15px;
+      border-bottom: $border;
+    }
+    li {
+      border-right: $border;
+      flex: 1;
+      padding: 10px 15px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    li:last-child {
+      border-right: none;
+      flex: 2;
+    }
+  }
+
+  .prd-attr {
+    margin: 8px;
+    li {
+      display: inline-block;
+      // margin-right: 30px;
+    }
+  }
+  .prd-info-deg {
+    overflow: hidden;
+    min-width: 1080px;
+    padding: 0 20px 20px 20px;
+
+    .prd-view-title {
+      width: 55px;
+    }
+    li {
+      display: inline-block;
+      width: 24%;
+      margin-top: 10px;
+    }
+    .prd-view-wrapper {
+      display: flex;
+    }
+  }
+  .prd-view {
+    cursor: pointer;
+    color: #fe7b21;
+  }
+  // .prd-el-button{
+  //   width: 50%;
+  // }
+  img {
+    width: 100%;
+    cursor: pointer;
+  }
+  .prd-view-remark {
+    padding-right: 10px;
+    font-size: 14px;
+    color: #999;
+  }
+  .spu-title {
+    padding-bottom: 15px;
+    font-size: 14px;
+  }
+
+  .cancelFixedTop {
+    padding-bottom: 55px;
+  }
+  .open-active {
+    height: 135px;
+    overflow: hidden;
+  }
+
+  .el-carousel {
+    overflow: hidden;
+    margin: 10px;
+    background: #fff;
+  }
+  .y-par {
+    color: #999;
+  }
+  //样式修改添加
+  .el-dialog__header {
+    background-color: white !important;
+    border-bottom: 0px !important;
+  }
+  .border-box {
+    border: 1px solid #e9ecee;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .prd-title {
+    font-size: 22px;
+    display: inline-block;
+    font-weight: bold;
+  }
+  .spu-content {
+    border: $border;
+  }
+  .deg-title {
+    padding: 10px 15px;
+    border: $border;
+    border-bottom: unset;
+  }
+  .customs-w {
+    border-top: $border;
+    border-right: $border;
+    @extend .border-r;
+  }
+  .customs-w li {
+    display: inline-block;
+    width: 33.3%;
+    line-height: 34px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border-bottom: $border;
+    border-left: $border;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+  }
+  .customs-w li:last-child {
+    width: 100%;
+  }
+  .el-tabs__header {
+    margin: 0;
+  }
+  .el-tabs__item {
+    color: #999;
+  }
+  .el-tabs .is-active {
+    background: #f7f8fb;
+    color: #000;
+    border-top: 2px solid #409eff;
+    position: relative;
+  }
+  .el-tabs .is-active::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: #f7f8fb;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+  }
+  .el-tabs--card > .el-tabs__header .el-tabs__item {
+    border-bottom: unset;
+    vertical-align: top;
+  }
+  .el-tabs__nav {
+    position: relative;
+    left: -1px;
+    top: -1px;
+  }
+}

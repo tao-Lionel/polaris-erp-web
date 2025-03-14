@@ -1,0 +1,19 @@
+$margin: (5, 10, 15, 20);
+
+@each $k in $margin {
+  .m-#{$k} {
+    margin: #{$k}px;
+  }
+  .ml-#{$k} {
+    margin-left: #{$k}px;
+  }
+  .mr-#{$k} {
+    margin-right: #{$k}px;
+  }
+  .mt-#{$k} {
+    margin-top: #{$k}px;
+  }
+  .mb-#{$k} {
+    margin-bottom: #{$k}px;
+  }
+}

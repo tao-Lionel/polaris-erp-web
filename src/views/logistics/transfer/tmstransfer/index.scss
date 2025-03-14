@@ -1,0 +1,140 @@
+#transfer_detail {
+  // .el-input {
+  //   width: 60%;
+  // }
+  .text-align-center {
+    text-align: center;
+  }
+  .inline-class {
+    display: inline-block;
+  }
+  // .el-form-item{
+  //   margin-bottom: 0;
+  // }
+
+  .iod-header-content {
+    line-height: 40px;
+  }
+  .margin-left-30 {
+    margin-left: 30px;
+  }
+  .margin-rignt-50 {
+    margin-right: 50px;
+  }
+
+  .iod-target {
+    font-weight: bold;
+  }
+  // .target-title{ padding: 14px 18px;background: #f6f9fb;border-bottom: 1px solid #e7ebef;}
+
+  .target-edit {
+    padding: 20px 20px 0;
+    > div {
+      flex: 1;
+    }
+    > div:nth-child(2) {
+      margin: 0 20px;
+    }
+    .el-form-item__label {
+      line-height: 28px;
+    }
+    .el-select,
+    .el-input {
+      width: 100%;
+    }
+  }
+  #iod-other {
+    .el-form-item__content {
+      margin: 0;
+    }
+  }
+  .upload-inq {
+    position: relative;
+  }
+  .is-dot::before {
+    display: block;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #f56c6c;
+    position: absolute;
+    top: 8px;
+    right: 0;
+  }
+  .color-red {
+    color: red;
+  }
+  .volueDiv {
+    float: left;
+    width: 20%;
+  }
+  .volueDiv1 {
+    float: left;
+    width: 40%;
+  }
+
+  .other-info-style {
+    overflow: hidden;
+    .el-form-item {
+      width: 50%;
+      box-sizing: border-box;
+      display: inline-block;
+      padding: 0px 8px;
+      border-right: 1px solid #e7ebef;
+      border-bottom: 1px solid #e7ebef;
+    }
+    // .el-form-item:nth-child(odd){
+    //    border-right: 1px solid #e7ebef;
+    //    border-bottom: 1px solid #e7ebef;}
+    .el-select {
+      width: 100%;
+    }
+    .el-form-item {
+      margin-bottom: 0px;
+    }
+    .zip-remark {
+      .zip-form-lable {
+        padding-bottom: 10px;
+        // padding-left: 40px;
+        .el-form-item__label {
+          float: none;
+        }
+        .el-button {
+          background-color: #f7f8fb;
+        }
+      }
+      .remark-form-lable {
+        .el-textarea {
+          vertical-align: initial;
+        }
+      }
+    }
+  }
+  .title-wrapper {
+    padding: 12px 15px;
+    background: #f7f8fb;
+    border-bottom: 1px solid #e7ebef;
+    position: relative;
+    vertical-align: middle;
+  }
+  .title-name {
+    font-size: 16px;
+    display: inline-block;
+  }
+  .title-name:before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 14px;
+    background: #409eff;
+    position: relative;
+    top: -2px;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+  // .app-container{
+  //   padding: 5px;
+  // }
+}

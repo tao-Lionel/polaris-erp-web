@@ -1,0 +1,170 @@
+<template>
+  <div class="execution" id="purchaseOperatelog">
+    <basic-container>
+      <el-dialog
+        title="操作日志"
+        :visible.sync="purchaseOperatelogDialog"
+        @close="dialogClose"
+        width="60%"
+        height="60%"
+      >
+        <avue-crud
+          ref="crud"
+          :page="page"
+          :data="tableData"
+          :option="tableOption"
+          @current-change="currentChange"
+          @size-change="sizeChange"
+          @search-change="handleFilter"
+          @search-reset="searchReset"
+          @refresh-change="refreshChange"
+          @row-update="handleUpdate"
+          @row-save="handleSave"
+          @row-del="rowDel"
+        >
+          <template slot="search">
+            <el-form-item label="操作类型">
+              <el-input v-model="search.logRemark" placeholder="请输入操作类型搜索" size="small" />
+            </el-form-item>
+          </template>
+        </avue-crud>
+        <span slot="footer" class="dialog-footer">
+          <el-button size="small" @click="purchaseOperatelogDialog = false">关闭</el-button>
+        </span>
+      </el-dialog>
+    </basic-container>
+  </div>
+</template>
+
+<script>
+import { fetchList } from "@/api/purchase/log/purchaselog"
+import { tableOption } from "@/const/crud/purchase/log/purchaselog"
+import { mapGetters } from "vuex"
+
+export default {
+  name: "purchaseOperatelog",
+  props: {
+    receiveRelateId: Number,
+    receiveLogType: Number
+  },
+  data() {
+    return {
+      purchaseOperatelogDialog: false,
+      tableData: [],
+      page: {
+        total: 0, // 总页数
+        currentPage: 1, // 当前页数
+        pageSize: 10 // 每页显示多少条
+      },
+      search: {
+        relateId: -1,
+        logType: -1,
+        logRemark: ""
+      },
+      tableOption: tableOption
+    }
+  },
+  created() {},
+  mounted: function () {},
+  computed: {
+    ...mapGetters(["permissions"])
+  },
+  methods: {
+    dialogClose() {
+      this.page = {
+        total: 0, // 总页数
+        currentPage: 1, // 当前页数
+        pageSize: 10 // 每页显示多少条
+      }
+    },
+    //当前第几页
+    currentChange(val) {
+      this.page.currentPage = val
+      this.getList(this.page)
+    },
+    //每页显示几条
+    sizeChange(val) {
+      this.page.pageSize = val
+      this.page.currentPage = 1
+      this.getList(this.page)
+    },
+    /**
+     * 刷新回调
+     */
+    refreshChange() {
+      this.getList(this.page)
+    },
+    searchReset() {
+      this.search = {}
+    },
+    handleFilter(param) {
+      this.getList(this.page)
+    },
+    getList(page, params) {
+      //拼接上自定义搜索条件
+      params = Object.assign(params || {}, this.search)
+      fetchList(
+        Object.assign(
+          {
+            current: page.currentPage,
+            size: page.pageSize
+          },
+          params
+        )
+      ).then((response) => {
+        this.tableData = response.data.data.records
+        // console.log(this.tableData)
+        this.page.total = response.data.data.total
+      })
+    },
+    showOperateLogDialog(id, type) {
+      this.search.relateId = id
+      this.search.logType = type
+      this.handleFilter()
+      this.purchaseOperatelogDialog = true
+    },
+    /**
+     * @title 打开新增窗口
+     * @detail 调用crud的handleadd方法即可
+     *
+     **/
+    handleAdd: function () {
+      // this.$refs.crud.rowAdd()
+    },
+    handleEdit(row, index) {
+      // this.$refs.crud.rowEdit(row, index)
+    },
+    handleDel(row, index) {
+      // this.$refs.crud.rowDel(row, index)
+    },
+    rowDel: function (row, index) {},
+    /**
+     * @title 数据更新
+     * @param row 为当前的数据
+     * @param index 为当前更新数据的行数
+     * @param done 为表单关闭函数
+     *
+     **/
+    handleUpdate: function (row, index, done) {},
+    /**
+     * @title 数据添加
+     * @param row 为当前的数据
+     * @param done 为表单关闭函数
+     *
+     **/
+    handleSave: function (row, done) {}
+  }
+}
+</script>
+
+<style>
+#purchaseOperatelog .avue-crud__menu {
+  display: none;
+}
+#purchaseOperatelog .el-dialog__body {
+  padding: 0px 20px;
+}
+#purchaseOperatelog .el-card__body {
+  padding: 0px 0px;
+}
+</style>

@@ -1,0 +1,86 @@
+.cus-detail {
+  // height: 99%;
+  .totalLayout {
+    height: 99%;
+    //overflow: scroll;
+    .el-card {
+      height: 100%;
+      // overflow: scroll;
+      .el-card__body {
+        padding: 20px 10px;
+        height: 100%;
+        .detail-top {
+          width: 100%;
+          height: 40px;
+          // background-color: rebeccapurple;
+        }
+        .detail-container {
+          // height: 100%;
+          // overflow: scroll;
+          position: relative;
+          // 左边
+          .detail-aside {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 20%;
+            height: 100%;
+            transition: all 0.35s;
+            .aside-left {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+          // 内容
+          .detail-main {
+            position: relative;
+            // float: left;
+            // width: 100%;
+            overflow-x: auto;
+            margin-left: 20%;
+            padding-left: 35px;
+            height: 100%;
+            transition: all 0.35s;
+          }
+
+          .aside-active {
+            width: 0;
+          }
+          .mian-active {
+            margin-left: 0;
+          }
+
+          .aside-right {
+            position: absolute;
+            top: 0;
+            right: -20px;
+            z-index: 10;
+            height: 100%;
+            background: #fff;
+            border-right: 1px solid #e4e7ed;
+            .arrowBtn {
+              width: 100%;
+              font-size: x-large;
+              position: relative;
+              transform: translateY(-50%);
+              top: 50%;
+              padding: 0;
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* 可以设置不同的进入和离开动画 */
+/* 设置持续时间和动画函数 */
+.aside-fade-enter-active,
+.aside-fade-leave-active {
+  transition: opacity 0.3s;
+}
+.aside-fade-enter, .aside-fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  // transform: translateX(-10px);
+  opacity: 0;
+}

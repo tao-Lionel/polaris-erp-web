@@ -1,0 +1,22 @@
+#cus-invoiceauto {
+  .invoiceauto-container {
+    .text-center {
+      text-align: center;
+      font-size: 30px;
+      letter-spacing: 100px;
+    }
+    th,
+    td {
+      text-align: center;
+    }
+    .verticalAlignCenter {
+      transform: translateY(50%);
+      position: relative;
+    }
+    .verticalAlignBottom {
+      transform: translateY(200%);
+      position: relative;
+      padding-left: 10px;
+    }
+  }
+}

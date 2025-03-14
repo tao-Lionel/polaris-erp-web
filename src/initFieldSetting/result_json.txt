@@ -1,0 +1,4795 @@
+[
+  {
+    "id": 1,
+    "parentId": -1,
+    "architectureId": 0,
+    "children": [
+      {
+        "id": 2,
+        "parentId": 1,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-caidanguanli",
+        "name": "菜单管理",
+        "spread": false,
+        "path": "/admin/menu",
+        "servicePath": "",
+        "component": "views/admin/menu/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "菜单管理",
+        "sort": 1001
+      },
+      {
+        "id": 8,
+        "parentId": 1,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-zidianguanli",
+        "name": "字典管理",
+        "spread": false,
+        "path": "/admin/dict",
+        "servicePath": "",
+        "component": "views/admin/dict/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "字典管理",
+        "sort": 1007
+      },
+      {
+        "id": 13,
+        "parentId": 1,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-zhongduan",
+        "name": "终端管理",
+        "spread": false,
+        "path": "/admin/client",
+        "servicePath": "",
+        "component": "views/admin/client/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "终端管理",
+        "sort": 1012
+      },
+      {
+        "id": 850,
+        "parentId": 1,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/admin/addDataExportConfig",
+            "name": "新增数据导出配置",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/admin/dataExportConfiguration"
+            }
+          },
+          {
+            "path": "/admin/updateDataExportConfig",
+            "name": "编辑数据导出配置",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/admin/dataExportConfiguration"
+            }
+          }
+        ],
+        "icon": "el-icon-edit-outline",
+        "name": "数据导出配置",
+        "spread": false,
+        "path": "/admin/dataExportConfiguration",
+        "servicePath": "",
+        "component": "views/admin/dataExportConfiguration/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "数据导出配置",
+        "sort": 1033
+      },
+      {
+        "id": 948,
+        "parentId": 1,
+        "architectureId": 0,
+        "children": [],
+        "icon": "el-icon-warning-outline",
+        "name": "字段说明配置",
+        "spread": false,
+        "path": "/admin/fieldDescription/list",
+        "servicePath": "",
+        "component": "views/admin/fieldDescription/list",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "字段说明配置",
+        "sort": 1035
+      }
+    ],
+    "icon": "icon-system",
+    "name": "系统管理",
+    "spread": false,
+    "path": "/admin",
+    "servicePath": "",
+    "component": "Layout",
+    "authority": null,
+    "redirect": null,
+    "keepAlive": "0",
+    "code": null,
+    "type": "0",
+    "label": "系统管理",
+    "sort": 1000
+  },
+  {
+    "id": 851,
+    "parentId": -1,
+    "architectureId": 0,
+    "children": [
+      {
+        "id": 853,
+        "parentId": 851,
+        "architectureId": 0,
+        "children": [],
+        "icon": "el-icon-folder-checked",
+        "name": "发布列表",
+        "spread": false,
+        "path": "/noticeCenter/publishNotice/list",
+        "servicePath": "",
+        "component": "views/noticeCenter/publishNotice/list",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "发布列表",
+        "sort": 1
+      }
+    ],
+    "icon": "el-icon-bell",
+    "name": "通知中心",
+    "spread": false,
+    "path": "/noticeCenter",
+    "servicePath": "",
+    "component": "views/noticeCenter/index",
+    "authority": null,
+    "redirect": null,
+    "keepAlive": "0",
+    "code": null,
+    "type": "0",
+    "label": "通知中心",
+    "sort": 1500
+  },
+  {
+    "id": 24,
+    "parentId": -1,
+    "architectureId": 0,
+    "children": [
+      {
+        "id": 25,
+        "parentId": 24,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "关联功能角色\r",
+            "path": "/adminUser/adminPloyee/关联功能角色\r"
+          },
+          {
+            "name": "关联数据角色\r",
+            "path": "/adminUser/adminPloyee/关联数据角色\r"
+          },
+          {
+            "name": "selectDisplayName + '所有的功能权限'\r",
+            "path": "/adminUser/adminPloyee/selectDisplayName + '所有的功能权限'\r"
+          },
+          {
+            "name": "selectDisplayName + '所有的品类权限'\r",
+            "path": "/adminUser/adminPloyee/selectDisplayName + '所有的品类权限'\r"
+          },
+          {
+            "name": "selectDisplayName + '所有的品牌权限'\r",
+            "path": "/adminUser/adminPloyee/selectDisplayName + '所有的品牌权限'\r"
+          },
+          {
+            "name": "selectDisplayName + '所有的仓库权限'\r",
+            "path": "/adminUser/adminPloyee/selectDisplayName + '所有的仓库权限'\r"
+          },
+          {
+            "name": "selectDisplayName + '所有的店铺权限'\r",
+            "path": "/adminUser/adminPloyee/selectDisplayName + '所有的店铺权限'\r"
+          },
+          {
+            "name": "新建员工修改员工基本信息\r",
+            "path": "/adminUser/adminPloyee/新建员工/修改员工基本信息\r"
+          },
+          {
+            "name": "roleDataTitle\r",
+            "path": "/adminUser/adminPloyee/roleDataTitle\r"
+          }
+        ],
+        "icon": "icon-yuangongguanli",
+        "name": "员工管理",
+        "spread": false,
+        "path": "/adminUser/adminPloyee",
+        "servicePath": "",
+        "component": "views/adminUser/adminPloyee/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "员工管理",
+        "sort": 2001
+      },
+      {
+        "id": 26,
+        "parentId": 24,
+        "architectureId": 0,
+        "children": [
+          {
+            "id": 27,
+            "parentId": 26,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-quanxianguanlisvg-",
+            "name": "功能角色",
+            "spread": false,
+            "path": "/adminUser/null/roleFunction",
+            "servicePath": "",
+            "component": "views/adminUser/adminRole/roleFunction/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "功能角色",
+            "sort": 2003
+          },
+          {
+            "id": 28,
+            "parentId": 26,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-shujujiaose",
+            "name": "数据角色",
+            "spread": false,
+            "path": "/adminUser/null/roleData",
+            "servicePath": "",
+            "component": "views/adminUser/adminRole/roleData/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "数据角色",
+            "sort": 2004
+          },
+          {
+            "name": "菜单数据权限\r",
+            "path": "/adminUser/null/roleData/菜单数据权限\r"
+          },
+          {
+            "name": "新建数据角色\r",
+            "path": "/adminUser/null/roleData/新建数据角色\r"
+          },
+          {
+            "name": "新建功能角色\r",
+            "path": "/adminUser/null/roleFunction/新建功能角色\r"
+          }
+        ],
+        "icon": "icon-jiaoseguanli",
+        "name": "角色管理",
+        "spread": false,
+        "path": "/adminUser/null",
+        "servicePath": "",
+        "component": null,
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "角色管理",
+        "sort": 2002
+      },
+      {
+        "id": 916,
+        "parentId": 24,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-yuangongguanli",
+        "name": "外部用户管理",
+        "spread": false,
+        "path": "/adminUser/externalUser/list",
+        "servicePath": "",
+        "component": "views/adminUser/externalUser/list",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "外部用户管理",
+        "sort": 2015
+      }
+    ],
+    "icon": "icon-yonghuguanli",
+    "name": "用户管理",
+    "spread": false,
+    "path": "/adminUser",
+    "servicePath": "",
+    "component": "Layout",
+    "authority": null,
+    "redirect": null,
+    "keepAlive": "0",
+    "code": null,
+    "type": "0",
+    "label": "用户管理",
+    "sort": 2000
+  },
+  {
+    "id": 40,
+    "parentId": -1,
+    "architectureId": 0,
+    "children": [
+      {
+        "id": 848,
+        "parentId": 40,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "渠道映射\r",
+            "path": "/baseSetup/logisticsChannelMapping/list/渠道映射\r"
+          },
+          {
+            "name": "title\r",
+            "path": "/baseSetup/logisticsChannelMapping/list/title\r"
+          },
+          {
+            "name": "编辑\r",
+            "path": "/baseSetup/logisticsChannelMapping/list/编辑\r"
+          },
+          {
+            "name": "操作日志\r",
+            "path": "/baseSetup/logisticsChannelMapping/list/操作日志\r"
+          }
+        ],
+        "icon": "el-icon-truck",
+        "name": "物流商渠道映射 ",
+        "spread": false,
+        "path": "/baseSetup/logisticsChannelMapping/list",
+        "servicePath": "",
+        "component": "views/baseSetup/logisticsChannelMapping/list",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "物流商渠道映射 ",
+        "sort": 1
+      },
+      {
+        "id": 949,
+        "parentId": 40,
+        "architectureId": 0,
+        "children": [
+          {
+            "id": 950,
+            "parentId": 949,
+            "architectureId": 0,
+            "children": [],
+            "icon": "el-icon-cpu",
+            "name": "变量",
+            "spread": false,
+            "path": "/baseSetup/ruleEngineConfig/variableList",
+            "servicePath": "",
+            "component": "views/ruleEngineConfig/variableList/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "变量",
+            "sort": 1
+          },
+          {
+            "id": 961,
+            "parentId": 949,
+            "architectureId": 0,
+            "children": [],
+            "icon": "el-icon-thumb",
+            "name": "函数",
+            "spread": false,
+            "path": "/baseSetup/ruleEngineConfig/functionList",
+            "servicePath": "",
+            "component": "views/ruleEngineConfig/functionList/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "函数",
+            "sort": 1
+          },
+          {
+            "id": 972,
+            "parentId": 949,
+            "architectureId": 0,
+            "children": [],
+            "icon": "el-icon-magic-stick",
+            "name": "规则",
+            "spread": false,
+            "path": "/baseSetup/ruleEngineConfig/rulesList/index",
+            "servicePath": "",
+            "component": "views/ruleEngineConfig/rulesList/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "规则",
+            "sort": 1
+          },
+          {
+            "id": 983,
+            "parentId": 949,
+            "architectureId": 0,
+            "children": [],
+            "icon": "el-icon-coin",
+            "name": "分类",
+            "spread": false,
+            "path": "/baseSetup/ruleEngineConfig/classification",
+            "servicePath": "",
+            "component": "views/ruleEngineConfig/classification/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "分类",
+            "sort": 1
+          },
+          {
+            "name": "title\r",
+            "path": "/baseSetup/ruleEngineConfig/classification/index/title\r"
+          },
+          {
+            "name": "提示\r",
+            "path": "/baseSetup/ruleEngineConfig/functionList/addFunction/提示\r"
+          },
+          {
+            "name": "添加规则\r",
+            "path": "/baseSetup/ruleEngineConfig/rulesList/index/添加规则\r"
+          },
+          {
+            "name": "title\r",
+            "path": "/baseSetup/ruleEngineConfig/variableList/index/title\r"
+          }
+        ],
+        "icon": "el-icon-connection",
+        "name": "规则配置",
+        "spread": false,
+        "path": "/baseSetup/ruleEngineConfig",
+        "servicePath": "",
+        "component": "views/ruleEngineConfig",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "规则配置",
+        "sort": 1
+      },
+      {
+        "id": 255,
+        "parentId": 40,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "handleAddOrUpdateTile\r",
+            "path": "/baseSetup/bsecurrency/handleAddOrUpdateTile\r"
+          },
+          {
+            "name": "handleAddOrUpdateTile\r",
+            "path": "/baseSetup/bsecurrency/handleAddOrUpdateTile\r"
+          },
+          {
+            "name": "auditTitle\r",
+            "path": "/baseSetup/bsecurrency/auditTitle\r"
+          },
+          {
+            "name": "汇率\r",
+            "path": "/baseSetup/bsecurrency/汇率\r"
+          }
+        ],
+        "icon": "icon-bibie",
+        "name": "币种设置",
+        "spread": false,
+        "path": "/baseSetup/bsecurrency",
+        "servicePath": "",
+        "component": "views/baseSetup/bsecurrency/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "1",
+        "code": null,
+        "type": "0",
+        "label": "币种设置",
+        "sort": 3
+      },
+      {
+        "id": 256,
+        "parentId": 40,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "handleAddOrUpdateTile\r",
+            "path": "/baseSetup/declareCustoms/handleAddOrUpdateTile\r"
+          },
+          {
+            "name": "auditTitle\r",
+            "path": "/baseSetup/declareCustoms/auditTitle\r"
+          }
+        ],
+        "icon": "icon-kuqukuweishezhi",
+        "name": "库位管理",
+        "spread": false,
+        "path": "/baseSetup/declareCustoms",
+        "servicePath": "",
+        "component": "views/baseSetup/wmsstocklocation/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "库位管理",
+        "sort": 4
+      },
+      {
+        "id": 257,
+        "parentId": 40,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "handleAddOrUpdateTile\r",
+            "path": "/baseSetup/bsetransportcarrier/list/handleAddOrUpdateTile\r"
+          },
+          {
+            "name": "auditTitle\r",
+            "path": "/baseSetup/bsetransportcarrier/list/auditTitle\r"
+          },
+          {
+            "name": "设置平台物流映射\r",
+            "path": "/baseSetup/bsetransportcarrier/list/设置平台物流映射\r"
+          },
+          {
+            "name": "设置仓库物流渠道\r",
+            "path": "/baseSetup/bsetransportcarrier/list/设置仓库物流渠道\r"
+          }
+        ],
+        "icon": "icon-wuliushang",
+        "name": "物流商管理",
+        "spread": false,
+        "path": "/baseSetup/bsetransportcarrier/list",
+        "servicePath": "",
+        "component": "views/baseSetup/bsetransportcarrier/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "物流商管理",
+        "sort": 5
+      },
+      {
+        "id": 258,
+        "parentId": 40,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "handleAddOrUpdateTile\r",
+            "path": "/baseSetup/bsetransportchannel/handleAddOrUpdateTile\r"
+          },
+          {
+            "name": "auditTitle\r",
+            "path": "/baseSetup/bsetransportchannel/auditTitle\r"
+          }
+        ],
+        "icon": "icon-transportStyle",
+        "name": "运输方式管理",
+        "spread": false,
+        "path": "/baseSetup/bsetransportchannel",
+        "servicePath": "",
+        "component": "views/baseSetup/bsetransportchannel/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "运输方式管理",
+        "sort": 6
+      },
+      {
+        "id": 41,
+        "parentId": 40,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "新建编辑仓库\r",
+            "path": "/baseSetup/warehouse/新建/编辑仓库\r"
+          },
+          {
+            "name": "设置AppSecret\r",
+            "path": "/baseSetup/warehouse/设置AppSecret\r"
+          },
+          {
+            "name": "查看物流商\r",
+            "path": "/baseSetup/warehouse/查看物流商\r"
+          }
+        ],
+        "icon": "icon-cangkushezhi",
+        "name": "仓库设置",
+        "spread": false,
+        "path": "/baseSetup/warehouse",
+        "servicePath": "",
+        "component": "views/baseSetup/bsewarehouse/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "仓库设置",
+        "sort": 3001
+      },
+      {
+        "id": 47,
+        "parentId": 40,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "新建编辑店铺\r",
+            "path": "/baseSetup/bsestore/新建/编辑店铺\r"
+          },
+          {
+            "name": "授权\r",
+            "path": "/baseSetup/bsestore/授权\r"
+          },
+          {
+            "name": "设置法人主体\r",
+            "path": "/baseSetup/bsestore/设置法人主体\r"
+          },
+          {
+            "name": "查看详情\r",
+            "path": "/baseSetup/bsestore/查看详情\r"
+          }
+        ],
+        "icon": "icon-dianpushezhi",
+        "name": "店铺设置",
+        "spread": false,
+        "path": "/baseSetup/bsestore",
+        "servicePath": "",
+        "component": "views/baseSetup/bsestore/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "店铺设置",
+        "sort": 3007
+      },
+      {
+        "id": 580,
+        "parentId": 40,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "新增\r",
+            "path": "/baseSetup/bsecustomsclearancerate/新增\r"
+          },
+          {
+            "name": "修改\r",
+            "path": "/baseSetup/bsecustomsclearancerate/修改\r"
+          }
+        ],
+        "icon": "icon-zhongduan",
+        "name": "清关率管理",
+        "spread": false,
+        "path": "/baseSetup/bsecustomsclearancerate",
+        "servicePath": "",
+        "component": "views/baseSetup/bsecustomsclearancerate/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "清关率管理",
+        "sort": 3010
+      },
+      {
+        "id": 786,
+        "parentId": 40,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-caigoujiamubiao",
+        "name": "汇率",
+        "spread": false,
+        "path": "/baseSetup/rate",
+        "servicePath": "",
+        "component": "views/baseSetup/rate/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "汇率",
+        "sort": 3011
+      }
+    ],
+    "icon": "el-icon-setting",
+    "name": "基础设置",
+    "spread": false,
+    "path": "/baseSetup",
+    "servicePath": "",
+    "component": "views/baseSetup/index",
+    "authority": null,
+    "redirect": null,
+    "keepAlive": "0",
+    "code": null,
+    "type": "0",
+    "label": "基础设置",
+    "sort": 3000
+  },
+  {
+    "id": 625,
+    "parentId": -1,
+    "architectureId": 0,
+    "children": [
+      {
+        "id": 630,
+        "parentId": 625,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/order/orderManages/detail",
+            "name": "订单详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/order/orderManageList"
+            }
+          },
+          {
+            "path": "/order/orderManages/detailEdit",
+            "name": "编辑订单",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/order/orderManageList"
+            }
+          },
+          {
+            "path": "/order/orderManages/add",
+            "name": "新增订单",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/order/orderManageList"
+            }
+          },
+          {
+            "name": "同步订单\r",
+            "path": "/order/orderManageList/同步订单\r"
+          },
+          {
+            "name": "设置仓库物流\r",
+            "path": "/order/orderManageList/设置仓库物流\r"
+          },
+          {
+            "name": "导入订单\r",
+            "path": "/order/orderManageList/导入订单\r"
+          },
+          {
+            "name": "取消订单\r",
+            "path": "/order/orderManageList/取消订单\r"
+          },
+          {
+            "name": "修改地址\r",
+            "path": "/order/orderManageList/修改地址\r"
+          },
+          {
+            "name": "生成发货单\r",
+            "path": "/order/orderManageList/生成发货单\r"
+          },
+          {
+            "name": "拆单\r",
+            "path": "/order/orderManageList/拆单\r"
+          },
+          {
+            "name": "面单\r",
+            "path": "/order/orderManageList/面单\r"
+          },
+          {
+            "name": "修改SKU\r",
+            "path": "/order/orderManageList/修改SKU\r"
+          },
+          {
+            "name": "修改SKU结果\r",
+            "path": "/order/orderManageList/修改SKU结果\r"
+          },
+          {
+            "name": "新增备注\r",
+            "path": "/order/orderManageList/新增备注\r"
+          },
+          {
+            "name": "释放占用库存\r",
+            "path": "/order/orderManageList/释放占用库存\r"
+          },
+          {
+            "name": "提示\r",
+            "path": "/order/orderManageList/提示\r"
+          },
+          {
+            "name": "冻结订单\r",
+            "path": "/order/orderManageList/冻结订单\r"
+          }
+        ],
+        "icon": "el-icon-document",
+        "name": "订单管理",
+        "spread": false,
+        "path": "/order/orderManageList",
+        "servicePath": "",
+        "component": "views/order/orderManage/orderManageList",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "订单管理",
+        "sort": 1
+      },
+      {
+        "id": 626,
+        "parentId": 625,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/order/orderRules/detail",
+            "name": "订单规则详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/order/orderRuleList"
+            }
+          }
+        ],
+        "icon": "el-icon-set-up",
+        "name": "订单规则",
+        "spread": false,
+        "path": "/order/orderRuleList",
+        "servicePath": "",
+        "component": "views/order/orderRule/orderRuleList",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "订单规则",
+        "sort": 2
+      },
+      {
+        "id": 632,
+        "parentId": 625,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "面单\r",
+            "path": "/order/invoiceManageList/面单\r"
+          },
+          {
+            "name": "上传面单\r",
+            "path": "/order/invoiceManageList/上传面单\r"
+          },
+          {
+            "name": "下发至第三方仓\r",
+            "path": "/order/invoiceManageList/下发至第三方仓\r"
+          },
+          {
+            "name": "提示\r",
+            "path": "/order/invoiceManageList/提示\r"
+          },
+          {
+            "name": "同步订单\r",
+            "path": "/order/invoiceManageList/同步订单\r"
+          },
+          {
+            "name": "标记已发货\r",
+            "path": "/order/invoiceManageList/标记已发货\r"
+          },
+          {
+            "name": "设置物流渠道\r",
+            "path": "/order/invoiceManageList/设置物流渠道\r"
+          },
+          {
+            "name": "获取面单\r",
+            "path": "/order/invoiceManageList/获取面单\r"
+          },
+          {
+            "name": "反审核至订单\r",
+            "path": "/order/invoiceManageList/反审核至订单\r"
+          },
+          {
+            "name": "设置标签\r",
+            "path": "/order/invoiceManageList/设置标签\r"
+          },
+          {
+            "name": "标签搜索\r",
+            "path": "/order/invoiceManageList/标签搜索\r"
+          }
+        ],
+        "icon": "el-icon-tickets",
+        "name": "发货单管理",
+        "spread": false,
+        "path": "/order/invoiceManageList",
+        "servicePath": "",
+        "component": "views/order/invoiceManage/invoiceManageList",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "发货单管理",
+        "sort": 3
+      },
+      {
+        "id": 631,
+        "parentId": 625,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "addLabelForm.id ? '编辑标签' : '新建标签'\r",
+            "path": "/order/labelManageList/addLabelForm.id ? '编辑标签' : '新建标签'\r"
+          }
+        ],
+        "icon": "el-icon-box",
+        "name": "标签管理",
+        "spread": false,
+        "path": "/order/labelManageList",
+        "servicePath": "",
+        "component": "views/order/labelManage/labelManageList",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "标签管理",
+        "sort": 4
+      },
+      {
+        "id": 830,
+        "parentId": 625,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/order/afterOrderManage/afterOrderDetail",
+            "name": "售后工单详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/order/afterOrderManageList"
+            }
+          },
+          {
+            "path": "/order/afterOrderManage/addGiftWorkOrder",
+            "name": "新增重发/赠品工单",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/order/afterOrderManageList"
+            }
+          },
+          {
+            "path": "/order/afterOrderManage/resendWorkOrder",
+            "name": "新建重发工单",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/order/afterOrderManageList"
+            }
+          }
+        ],
+        "icon": "el-icon-document",
+        "name": "售后工单管理",
+        "spread": false,
+        "path": "/order/afterOrderManageList",
+        "servicePath": "",
+        "component": "views/order/afterOrderManage/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "售后工单管理",
+        "sort": 5
+      }
+    ],
+    "icon": "icon-caidanguanli",
+    "name": "订单管理",
+    "spread": false,
+    "path": "/order",
+    "servicePath": "",
+    "component": "views/order/index",
+    "authority": null,
+    "redirect": null,
+    "keepAlive": "0",
+    "code": null,
+    "type": "0",
+    "label": "订单管理",
+    "sort": 3200
+  },
+  {
+    "id": 53,
+    "parentId": -1,
+    "architectureId": 0,
+    "children": [
+      {
+        "id": 859,
+        "parentId": 53,
+        "architectureId": 0,
+        "children": [],
+        "icon": "el-icon-tickets",
+        "name": "平台价格管理",
+        "spread": false,
+        "path": "/product/temu/list",
+        "servicePath": "",
+        "component": "views/product/temu/list",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "平台价格管理",
+        "sort": 1
+      },
+      {
+        "id": 54,
+        "parentId": 53,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-yijicaidanchanpinjichuxinxi",
+        "name": "基础属性",
+        "spread": false,
+        "path": "/product/index",
+        "servicePath": "",
+        "component": "views/product/index/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "基础属性",
+        "sort": 4001
+      },
+      {
+        "id": 55,
+        "parentId": 53,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/product/detail/index",
+            "name": "SKU详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/product/prdarchives"
+            }
+          }
+        ],
+        "icon": "icon-dangan",
+        "name": "产品档案",
+        "spread": false,
+        "path": "/product/prdarchives",
+        "servicePath": "",
+        "component": "views/product/prdarchives/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "产品档案",
+        "sort": 4002
+      },
+      {
+        "id": 56,
+        "parentId": 53,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/product/openTag/index/:id",
+            "name": "新品详情",
+            "meta": {
+              "keepAlive": false,
+              "parentPath": "/product/prdlist"
+            }
+          },
+          {
+            "path": "/product/openTag/edit/:id",
+            "name": "新品详情",
+            "meta": {
+              "keepAlive": false,
+              "parentPath": "/product/prdlist"
+            }
+          },
+          {
+            "name": "confrimDialogTitle\r",
+            "path": "/product/prdlist/confrimDialogTitle\r"
+          }
+        ],
+        "icon": "icon-zengjiaxinchanpin",
+        "name": "新品创建单",
+        "spread": false,
+        "path": "/product/prdlist",
+        "servicePath": "",
+        "component": "views/product/prdlist/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "新品创建单",
+        "sort": 4003
+      },
+      {
+        "id": 57,
+        "parentId": 53,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/sealSampleTable/index",
+            "name": "封样单详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/product/prdsealsample"
+            }
+          },
+          {
+            "name": "confrimTitle\r",
+            "path": "/product/prdsealsample/confrimTitle\r"
+          }
+        ],
+        "icon": "icon-yangpin",
+        "name": "封样单",
+        "spread": false,
+        "path": "/product/prdsealsample",
+        "servicePath": "",
+        "component": "views/product/prdsealsample/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "封样单",
+        "sort": 4004
+      },
+      {
+        "id": 66,
+        "parentId": 53,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "图片\r",
+            "path": "/product/prdskupic/图片\r"
+          }
+        ],
+        "icon": "icon-chanpintupian",
+        "name": "图片管理",
+        "spread": false,
+        "path": "/product/prdskupic",
+        "servicePath": "",
+        "component": "views/product/prdskupic/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "图片管理",
+        "sort": 4006
+      },
+      {
+        "id": 70,
+        "parentId": 53,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "设置状态\r",
+            "path": "/product/prdskustatusbelong/设置状态\r"
+          },
+          {
+            "name": "切换开发组\r",
+            "path": "/product/prdskustatusbelong/切换开发组\r"
+          },
+          {
+            "name": "切换采购组\r",
+            "path": "/product/prdskustatusbelong/切换采购组\r"
+          }
+        ],
+        "icon": "icon-zhuangtai",
+        "name": "状态及归属表",
+        "spread": false,
+        "path": "/product/prdskustatusbelong",
+        "servicePath": "",
+        "component": "views/product/prdskustatusbelong/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "状态及归属表",
+        "sort": 4007
+      },
+      {
+        "id": 807,
+        "parentId": 53,
+        "architectureId": 0,
+        "children": [],
+        "icon": "el-icon-connection",
+        "name": "链接SKU管理",
+        "spread": false,
+        "path": "/product/linkSkuManage/list",
+        "servicePath": "",
+        "component": "views/product/linkSkuManage/list",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "链接SKU管理",
+        "sort": 4008
+      },
+      {
+        "id": 615,
+        "parentId": 53,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "handleAddOrUpdateTile\r",
+            "path": "/product/bseskurelatemanage/handleAddOrUpdateTile\r"
+          },
+          {
+            "name": "错误信息\r",
+            "path": "/product/bseskurelatemanage/错误信息\r"
+          }
+        ],
+        "icon": "icon-zuzhiguanli",
+        "name": "销售SKU关系管理",
+        "spread": false,
+        "path": "/product/bseskurelatemanage",
+        "servicePath": "",
+        "component": "views/baseSetup/bseskurelatemanage/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "销售SKU关系管理",
+        "sort": 4009
+      },
+      {
+        "id": 754,
+        "parentId": 53,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "设置销售状态\r",
+            "path": "/product/prdcombproduct/list/设置销售状态\r"
+          },
+          {
+            "name": "提示\r",
+            "path": "/product/prdcombproduct/list/提示\r"
+          }
+        ],
+        "icon": "icon-pandian",
+        "name": "套装组合商品",
+        "spread": false,
+        "path": "/product/prdcombproduct/list",
+        "servicePath": "",
+        "component": "views/product/prdcombproduct/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": null,
+        "code": null,
+        "type": "0",
+        "label": "套装组合商品",
+        "sort": 4011
+      },
+      {
+        "id": 596,
+        "parentId": 53,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "批量审核\r",
+            "path": "/product/prdCalcRule/批量审核\r"
+          }
+        ],
+        "icon": "icon-zhongduan",
+        "name": "核价规则",
+        "spread": false,
+        "path": "/product/prdCalcRule",
+        "servicePath": "",
+        "component": "views/ruleConfig/prdCalcRule/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "核价规则",
+        "sort": 4015
+      },
+      {
+        "id": 601,
+        "parentId": 53,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/product/prdsalegrossprofits/detail/:id",
+            "name": "产品售价毛利详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/product/prdsalegrossprofit"
+            }
+          },
+          {
+            "path": "/product/prdsalegrossprofits/rule/:id",
+            "name": "关联规则详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/product/prdsalegrossprofit"
+            }
+          },
+          {
+            "path": "/product/prdsalegrossprofits/add",
+            "name": "新增测算",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/product/prdsalegrossprofit"
+            }
+          }
+        ],
+        "icon": "icon-pandian",
+        "name": "产品核价-旧",
+        "spread": false,
+        "path": "/product/prdsalegrossprofit",
+        "servicePath": "",
+        "component": "views/product/prdsalegrossprofit/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "产品核价-旧",
+        "sort": 4018
+      },
+      {
+        "id": 929,
+        "parentId": 53,
+        "architectureId": 0,
+        "children": [
+          {
+            "id": 930,
+            "parentId": 929,
+            "architectureId": 0,
+            "children": [],
+            "icon": "el-icon-suitcase",
+            "name": "核价需求",
+            "spread": false,
+            "path": "/product/pricing/productCosting/costingRequire/list",
+            "servicePath": "",
+            "component": "views/productCosting/costingRequire/list",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "核价需求",
+            "sort": 5
+          },
+          {
+            "id": 940,
+            "parentId": 929,
+            "architectureId": 0,
+            "children": [],
+            "icon": "el-icon-folder-opened",
+            "name": "核价结果",
+            "spread": false,
+            "path": "/product/pricing/productCosting/costingList/list",
+            "servicePath": "",
+            "component": "views/productCosting/costingList/list",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "核价结果",
+            "sort": 10
+          },
+          {
+            "name": "核价详情",
+            "path": "/productCosting/costingList/detail"
+          },
+          {
+            "name": "单个核价",
+            "path": "/productCosting/costingRequire/costing"
+          },
+          {
+            "name": "批量核价",
+            "path": "/productCosting/costingRequire/batchCosting"
+          }
+        ],
+        "icon": "el-icon-wallet",
+        "name": "产品核价",
+        "spread": false,
+        "path": "/product/pricing",
+        "servicePath": "",
+        "component": "views/productCosting/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "产品核价",
+        "sort": 4019
+      },
+      {
+        "id": 74,
+        "parentId": 53,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "addOrUpdateCustomsTitle\r",
+            "path": "/product/prdcustomselements/addOrUpdateCustomsTitle\r"
+          }
+        ],
+        "icon": "icon-haiguankouan",
+        "name": "海关要素",
+        "spread": false,
+        "path": "/product/prdcustomselements",
+        "servicePath": "",
+        "component": "views/product/prdcustomselements/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "海关要素",
+        "sort": 4021
+      },
+      {
+        "id": 78,
+        "parentId": 53,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "关联要素\r",
+            "path": "/product/prdrelatedelements/关联要素\r"
+          }
+        ],
+        "icon": "icon-guanlian",
+        "name": "关联要素",
+        "spread": false,
+        "path": "/product/prdrelatedelements",
+        "servicePath": "",
+        "component": "views/product/prdrelatedelements/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "关联要素",
+        "sort": 4025
+      }
+    ],
+    "icon": "icon-chanpinzhongxin",
+    "name": "产品中心",
+    "spread": false,
+    "path": "/product",
+    "servicePath": "",
+    "component": null,
+    "authority": null,
+    "redirect": null,
+    "keepAlive": "0",
+    "code": null,
+    "type": "0",
+    "label": "产品中心",
+    "sort": 4000
+  },
+  {
+    "id": 104,
+    "parentId": -1,
+    "architectureId": 0,
+    "children": [
+      {
+        "id": 113,
+        "parentId": 104,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "dialogTitle\r",
+            "path": "/purchase/posupplierskuperiod/dialogTitle\r"
+          },
+          {
+            "name": "操作日志\r",
+            "path": "/purchase/posupplierskuperiod/操作日志\r"
+          }
+        ],
+        "icon": "icon-caigouzhouqi",
+        "name": "采购周期",
+        "spread": false,
+        "path": "/purchase/posupplierskuperiod",
+        "servicePath": "",
+        "component": "views/purchase/posupplierskuperiod/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "采购周期",
+        "sort": 100
+      },
+      {
+        "id": 125,
+        "parentId": 104,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "dialogTitle\r",
+            "path": "/purchase/posettleaccounttype/dialogTitle\r"
+          }
+        ],
+        "icon": "icon-jiesuanfangshi",
+        "name": "结算方式",
+        "spread": false,
+        "path": "/purchase/posettleaccounttype",
+        "servicePath": "",
+        "component": "views/purchase/posettleaccounttype/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "结算方式",
+        "sort": 200
+      },
+      {
+        "id": 109,
+        "parentId": 104,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-caigoujiamubiao",
+        "name": "采购价目",
+        "spread": false,
+        "path": "/purchase/posupplierskuprice",
+        "servicePath": "",
+        "component": "views/purchase/posupplierskuprice/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "采购价目",
+        "sort": 300
+      },
+      {
+        "id": 123,
+        "parentId": 104,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/createSuppplier/index",
+            "name": "供应商详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/purchase/supplier/list"
+            }
+          },
+          {
+            "name": "切换等级\r",
+            "path": "/purchase/supplier/list/切换等级\r"
+          }
+        ],
+        "icon": "icon-gongyingshang",
+        "name": "供应商",
+        "spread": false,
+        "path": "/purchase/supplier/list",
+        "servicePath": "",
+        "component": "views/supplier/list/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "供应商",
+        "sort": 400
+      },
+      {
+        "id": 183,
+        "parentId": 104,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/inquiryorder/create/:inquiryOrderNo",
+            "name": "询价单详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/purchase/inquiryorder"
+            }
+          },
+          {
+            "path": "/inquiryorder/detail/:inquiryOrderNo",
+            "name": "询价单详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/purchase/inquiryorder"
+            }
+          },
+          {
+            "name": "auditTitle\r",
+            "path": "/purchase/inquiryorder/auditTitle\r"
+          }
+        ],
+        "icon": "icon-xunjia",
+        "name": "询价单",
+        "spread": false,
+        "path": "/purchase/inquiryorder",
+        "servicePath": "",
+        "component": "views/purchase/inquiryorder/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "询价单",
+        "sort": 500
+      },
+      {
+        "id": 167,
+        "parentId": 104,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "价格\r",
+            "path": "/purchase/porequisiton/list/价格\r"
+          },
+          {
+            "name": "auditTitle\r",
+            "path": "/purchase/porequisiton/list/auditTitle\r"
+          },
+          {
+            "name": "指派采购\r",
+            "path": "/purchase/porequisiton/list/指派采购\r"
+          }
+        ],
+        "icon": "icon-navicon-qgsq",
+        "name": "请购单",
+        "spread": false,
+        "path": "/purchase/porequisiton/list",
+        "servicePath": "",
+        "component": "views/purchase/porequisiton/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "请购单",
+        "sort": 600
+      },
+      {
+        "id": 138,
+        "parentId": 104,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/orderUpdate/index",
+            "name": "采购订单详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/purchase/poorder"
+            }
+          },
+          {
+            "path": "/purchase/poorder/generateDeliveryNote/index",
+            "name": "生成送货单",
+            "meta": {
+              "keepAlive": false,
+              "parentPath": "/purchase/poorder"
+            }
+          },
+          {
+            "name": "confrimTitle\r",
+            "path": "/purchase/poorder/confrimTitle\r"
+          },
+          {
+            "name": "采购明细\r",
+            "path": "/purchase/poorder/采购明细\r"
+          },
+          {
+            "name": "入库情况\r",
+            "path": "/purchase/poorder/入库情况\r"
+          },
+          {
+            "name": "查看请款单号\r",
+            "path": "/purchase/poorder/查看请款单号\r"
+          },
+          {
+            "name": "生成合同-选择合同条款\r",
+            "path": "/purchase/poorder/生成合同-选择合同条款\r"
+          }
+        ],
+        "icon": "icon-caigoudingdan",
+        "name": "采购订单",
+        "spread": false,
+        "path": "/purchase/poorder",
+        "servicePath": "",
+        "component": "views/purchase/poorder/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "采购订单",
+        "sort": 700
+      },
+      {
+        "id": 151,
+        "parentId": 104,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/approveContract/index",
+            "name": "财务审核",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/purchase/pocontract"
+            }
+          },
+          {
+            "path": "/showTaxContractPic/index",
+            "name": "含税合同",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/purchase/pocontract"
+            }
+          },
+          {
+            "path": "/showNonTaxContractPic/index",
+            "name": "合同",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/purchase/pocontract"
+            }
+          },
+          {
+            "path": "/contractAttachView/index",
+            "name": "附件预览",
+            "meta": {
+              "parentPath": "/purchase/pocontract"
+            }
+          },
+          {
+            "name": "上传文件\r",
+            "path": "/purchase/pocontract/上传文件\r"
+          },
+          {
+            "name": "预览图片\r",
+            "path": "/purchase/pocontract/预览图片\r"
+          },
+          {
+            "name": "库存详情\r",
+            "path": "/purchase/pocontract/库存详情\r"
+          },
+          {
+            "name": "财务审核\r",
+            "path": "/purchase/pocontract/财务审核\r"
+          }
+        ],
+        "icon": "icon-caigouhetong",
+        "name": "采购合同",
+        "spread": false,
+        "path": "/purchase/pocontract",
+        "servicePath": "",
+        "component": "views/purchase/contract/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "采购合同",
+        "sort": 800
+      },
+      {
+        "id": 284,
+        "parentId": 104,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/createDeliveryPlan/index",
+            "name": "制作交货计划",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/purchase/podeliveryplan"
+            }
+          },
+          {
+            "name": "采购备注\r",
+            "path": "/purchase/podeliveryplan/采购备注\r"
+          },
+          {
+            "name": "查看备注\r",
+            "path": "/purchase/podeliveryplan/查看备注\r"
+          },
+          {
+            "name": "查看送货信息\r",
+            "path": "/purchase/podeliveryplan/查看送货信息\r"
+          },
+          {
+            "name": "制作交货计划\r",
+            "path": "/purchase/podeliveryplan_create/制作交货计划\r"
+          }
+        ],
+        "icon": "icon-jiaohuojihua",
+        "name": "交货计划",
+        "spread": false,
+        "path": "/purchase/podeliveryplan",
+        "servicePath": "",
+        "component": "views/purchase/podeliveryplan/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "交货计划",
+        "sort": 801
+      },
+      {
+        "id": 286,
+        "parentId": 104,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/inspection/detail",
+            "name": "验货单详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/purchase/inspection/index"
+            }
+          },
+          {
+            "name": "确认验货结果\r",
+            "path": "/purchase/inspection/index/确认验货结果\r"
+          },
+          {
+            "name": "上传文件\r",
+            "path": "/purchase/inspection/index/上传文件\r"
+          },
+          {
+            "name": "预览图片\r",
+            "path": "/purchase/inspection/index/预览图片\r"
+          }
+        ],
+        "icon": "icon-yanhuoguanli",
+        "name": "验货单",
+        "spread": false,
+        "path": "/purchase/inspection/index",
+        "servicePath": "",
+        "component": "views/purchase/inspection/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "验货单",
+        "sort": 802
+      },
+      {
+        "id": 202,
+        "parentId": 104,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/delivery/create",
+            "name": "送货单详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/purchase/delivery/index"
+            }
+          },
+          {
+            "path": "/delivery/print",
+            "name": "打印送货单",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/purchase/delivery/index"
+            }
+          },
+          {
+            "name": "送货产品详情\r",
+            "path": "/purchase/delivery/index/送货产品详情\r"
+          }
+        ],
+        "icon": "icon-wuliushang",
+        "name": "送货单",
+        "spread": false,
+        "path": "/purchase/delivery/index",
+        "servicePath": "",
+        "component": "views/purchase/delivery/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "送货单",
+        "sort": 803
+      },
+      {
+        "id": 245,
+        "parentId": 104,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/porequisitonCancel//edit",
+            "name": "请购撤销单详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/purchase/porequisitonCancel"
+            }
+          },
+          {
+            "name": "auditTitle\r",
+            "path": "/purchase/porequisitonCancel/auditTitle\r"
+          }
+        ],
+        "icon": "icon-chexiao",
+        "name": "请购撤销单",
+        "spread": false,
+        "path": "/purchase/porequisitonCancel",
+        "servicePath": "",
+        "component": "views/purchase/porequisitonCancel/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "请购撤销单",
+        "sort": 900
+      },
+      {
+        "id": 246,
+        "parentId": 104,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "//pochange/edit",
+            "name": "采购变更单详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/purchase/change/index"
+            }
+          },
+          {
+            "name": "verifyTitle\r",
+            "path": "/purchase/change/index/verifyTitle\r"
+          }
+        ],
+        "icon": "icon-biangeng",
+        "name": "采购变更单",
+        "spread": false,
+        "path": "/purchase/change/index",
+        "servicePath": "",
+        "component": "views/purchase/pochange/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "采购变更单",
+        "sort": 1000
+      },
+      {
+        "id": 247,
+        "parentId": 104,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/poreturn/detail",
+            "name": "采购退货单详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/purchase/poreturn"
+            }
+          },
+          {
+            "name": "confrimTitle\r",
+            "path": "/purchase/poreturn/confrimTitle\r"
+          },
+          {
+            "name": "平台SKU退货数量\r",
+            "path": "/purchase/poreturn_create/平台SKU退货数量\r"
+          },
+          {
+            "name": "采购单-明细信息\r",
+            "path": "/purchase/poreturn_create/采购单-明细信息\r"
+          }
+        ],
+        "icon": "icon-tuihuo",
+        "name": "采购退货单",
+        "spread": false,
+        "path": "/purchase/poreturn",
+        "servicePath": "",
+        "component": "views/purchase/poreturn/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "采购退货单",
+        "sort": 1100
+      }
+    ],
+    "icon": "icon-caigouguanli",
+    "name": "采购管理",
+    "spread": false,
+    "path": "/purchase",
+    "servicePath": "",
+    "component": "views/supplier/posupplier/index",
+    "authority": null,
+    "redirect": null,
+    "keepAlive": "0",
+    "code": null,
+    "type": "0",
+    "label": "采购管理",
+    "sort": 4230
+  },
+  {
+    "id": 217,
+    "parentId": -1,
+    "architectureId": 0,
+    "children": [
+      {
+        "id": 218,
+        "parentId": 217,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/wmssign/list",
+            "name": "签收列表",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/warehouse/wmssign"
+            }
+          },
+          {
+            "path": "/wmssign/sign",
+            "name": "签收",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/warehouse/wmssign"
+            }
+          }
+        ],
+        "icon": "icon-qianshou",
+        "name": "签收",
+        "spread": false,
+        "path": "/warehouse/wmssign",
+        "servicePath": "",
+        "component": "views/warehouse/wmssign/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "签收",
+        "sort": 1
+      },
+      {
+        "id": 870,
+        "parentId": 217,
+        "architectureId": 0,
+        "children": [],
+        "icon": "el-icon-document",
+        "name": "海外仓安全库存配置",
+        "spread": false,
+        "path": "/warehouse/safetyStock/list",
+        "servicePath": "",
+        "component": "views/warehouse/safetyStock/list",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "海外仓安全库存配置",
+        "sort": 1
+      },
+      {
+        "id": 892,
+        "parentId": 217,
+        "architectureId": 0,
+        "children": [],
+        "icon": "el-icon-document",
+        "name": "平台仓安全库存配置",
+        "spread": false,
+        "path": "/warehouse/platformSafetyStock/list",
+        "servicePath": "",
+        "component": "views/warehouse/platformSafetyStock/list",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "平台仓安全库存配置",
+        "sort": 1
+      },
+      {
+        "id": 224,
+        "parentId": 217,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "不合格原因\r",
+            "path": "/warehouse/wmsqualitycontrol/不合格原因\r"
+          },
+          {
+            "name": "质检\r",
+            "path": "/warehouse/wmsqualitycontrol/质检\r"
+          },
+          {
+            "name": "处理方案\r",
+            "path": "/warehouse/wmsqualitycontrol/rejects/处理方案\r"
+          },
+          {
+            "name": "我想成为良品\r",
+            "path": "/warehouse/wmsqualitycontrol/rejects/我想成为良品\r"
+          },
+          {
+            "name": "转良品详情\r",
+            "path": "/warehouse/wmsqualitycontrol/rejects/转良品详情\r"
+          }
+        ],
+        "icon": "icon-zhijian",
+        "name": "质检",
+        "spread": false,
+        "path": "/warehouse/wmsqualitycontrol",
+        "servicePath": "",
+        "component": "views/warehouse/wmsqualitycontrol/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "质检",
+        "sort": 2
+      },
+      {
+        "id": 227,
+        "parentId": 217,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "请选择库位\r",
+            "path": "/warehouse/warehouse/wmsinbound/请选择库位\r"
+          },
+          {
+            "name": "确认入库\r",
+            "path": "/warehouse/warehouse/wmsinbound/确认入库\r"
+          },
+          {
+            "name": "送货单详情\r",
+            "path": "/warehouse/warehouse/wmsinbound/送货单详情\r"
+          }
+        ],
+        "icon": "icon-ruku",
+        "name": "入库",
+        "spread": false,
+        "path": "/warehouse/warehouse/wmsinbound",
+        "servicePath": "",
+        "component": "views/warehouse/wmsinbound/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "入库",
+        "sort": 3
+      },
+      {
+        "id": 344,
+        "parentId": 217,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "处理方案\r",
+            "path": "/warehouse/wmsqualitycontrol/rejects/处理方案\r"
+          },
+          {
+            "name": "我想成为良品\r",
+            "path": "/warehouse/wmsqualitycontrol/rejects/我想成为良品\r"
+          },
+          {
+            "name": "转良品详情\r",
+            "path": "/warehouse/wmsqualitycontrol/rejects/转良品详情\r"
+          }
+        ],
+        "icon": "icon-buliangpinguanli",
+        "name": "不良品处理",
+        "spread": false,
+        "path": "/warehouse/wmsqualitycontrol/rejects",
+        "servicePath": "",
+        "component": "views/warehouse/wmsqualitycontrol/rejects/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "不良品处理",
+        "sort": 3
+      },
+      {
+        "id": 232,
+        "parentId": 217,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "入库批次明细\r",
+            "path": "/warehouse/stock/入库批次明细\r"
+          },
+          {
+            "name": "占用库存记录\r",
+            "path": "/warehouse/stock/占用库存记录\r"
+          },
+          {
+            "name": "新增转货单\r",
+            "path": "/warehouse/stockchange/list/新增转货单\r"
+          },
+          {
+            "name": "confrimTitle\r",
+            "path": "/warehouse/stockchange/list/confrimTitle\r"
+          },
+          {
+            "name": "转货单详情\r",
+            "path": "/warehouse/stockchange/list/转货单详情\r"
+          },
+          {
+            "name": "关联单据\r",
+            "path": "/warehouse/stockchange/list/关联单据\r"
+          },
+          {
+            "name": "新增\r",
+            "path": "/warehouse/stocktake/新增\r"
+          },
+          {
+            "name": "关联单据\r",
+            "path": "/warehouse/stocktake/关联单据\r"
+          },
+          {
+            "name": "`盘点明细 (${detialStockTakeNo})`\r",
+            "path": "/warehouse/stocktake/`盘点明细 (${detialStockTakeNo})`\r"
+          },
+          {
+            "name": "生成单据\r",
+            "path": "/warehouse/stocktake/生成单据\r"
+          }
+        ],
+        "icon": "icon-kucunguanli",
+        "name": "库存查询",
+        "spread": false,
+        "path": "/warehouse/stock",
+        "servicePath": "",
+        "component": "views/warehouse/stock/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "库存查询",
+        "sort": 4
+      },
+      {
+        "id": 233,
+        "parentId": 217,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/otherInStock/create",
+            "name": "其他入库详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/warehouse/otherinstock"
+            }
+          },
+          {
+            "name": "confrimTitle\r",
+            "path": "/warehouse/otherinstock/confrimTitle\r"
+          },
+          {
+            "name": "sku信息\r",
+            "path": "/warehouse/otherinstock/sku信息\r"
+          }
+        ],
+        "icon": "icon-qitaruku",
+        "name": "其他入库",
+        "spread": false,
+        "path": "/warehouse/otherinstock",
+        "servicePath": "",
+        "component": "views/warehouse/otherinstock/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "其他入库",
+        "sort": 6
+      },
+      {
+        "id": 234,
+        "parentId": 217,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/otherOutStock/create",
+            "name": "其他出库单",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/warehouse/otherOutStock"
+            }
+          },
+          {
+            "name": "confrimTitle\r",
+            "path": "/warehouse/otherOutStock/confrimTitle\r"
+          },
+          {
+            "name": "sku信息\r",
+            "path": "/warehouse/otherOutStock/sku信息\r"
+          }
+        ],
+        "icon": "icon-qitachuku",
+        "name": "其他出库",
+        "spread": false,
+        "path": "/warehouse/otherOutStock",
+        "servicePath": "",
+        "component": "views/warehouse/otherOutStock/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "其他出库",
+        "sort": 7
+      },
+      {
+        "id": 353,
+        "parentId": 217,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "新增\r",
+            "path": "/warehouse/stocktake/新增\r"
+          },
+          {
+            "name": "关联单据\r",
+            "path": "/warehouse/stocktake/关联单据\r"
+          },
+          {
+            "name": "`盘点明细 (${detialStockTakeNo})`\r",
+            "path": "/warehouse/stocktake/`盘点明细 (${detialStockTakeNo})`\r"
+          },
+          {
+            "name": "生成单据\r",
+            "path": "/warehouse/stocktake/生成单据\r"
+          }
+        ],
+        "icon": "icon-pandian",
+        "name": "盘点管理",
+        "spread": false,
+        "path": "/warehouse/stocktake",
+        "servicePath": "",
+        "component": "views/warehouse/stocktake/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "盘点管理",
+        "sort": 8
+      },
+      {
+        "id": 372,
+        "parentId": 217,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "新增转货单\r",
+            "path": "/warehouse/stockchange/list/新增转货单\r"
+          },
+          {
+            "name": "confrimTitle\r",
+            "path": "/warehouse/stockchange/list/confrimTitle\r"
+          },
+          {
+            "name": "转货单详情\r",
+            "path": "/warehouse/stockchange/list/转货单详情\r"
+          },
+          {
+            "name": "关联单据\r",
+            "path": "/warehouse/stockchange/list/关联单据\r"
+          }
+        ],
+        "icon": "icon-huanhuo",
+        "name": "转货管理",
+        "spread": false,
+        "path": "/warehouse/stockchange/list",
+        "servicePath": "",
+        "component": "views/warehouse/stockchange/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "转货管理",
+        "sort": 9
+      },
+      {
+        "id": 518,
+        "parentId": 217,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/fbareturn/detail",
+            "name": "FBA退货明细",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/warehouse/fbareturn"
+            }
+          },
+          {
+            "path": "/fbareturn/info",
+            "name": "FBA退货详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/warehouse/fbareturn"
+            }
+          },
+          {
+            "name": "到货确认\r",
+            "path": "/warehouse/fbareturn/到货确认\r"
+          },
+          {
+            "name": "confrimTitle\r",
+            "path": "/warehouse/fbareturn/confrimTitle\r"
+          }
+        ],
+        "icon": "icon-tuihuo",
+        "name": "FBA退货管理",
+        "spread": false,
+        "path": "/warehouse/fbareturn",
+        "servicePath": "",
+        "component": "views/warehouse/fbareturn/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "FBA退货管理",
+        "sort": 10
+      },
+      {
+        "id": 629,
+        "parentId": 217,
+        "architectureId": 0,
+        "children": [
+          {
+            "name": "handleAddOrUpdateTile\r",
+            "path": "/warehouse/warehouseforsku/handleAddOrUpdateTile\r"
+          }
+        ],
+        "icon": "icon-sku",
+        "name": "仓库SKU映射管理",
+        "spread": false,
+        "path": "/warehouse/warehouseforsku",
+        "servicePath": "",
+        "component": "views/warehouse/warehouseforsku/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "仓库SKU映射管理",
+        "sort": 11
+      },
+      {
+        "id": 694,
+        "parentId": 217,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-cangchuguanli",
+        "name": "商品库存海外仓",
+        "spread": false,
+        "path": "/warehouse/overseaStock",
+        "servicePath": "",
+        "component": "views/warehouse/overseaStock/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "商品库存海外仓",
+        "sort": 12
+      }
+    ],
+    "icon": "icon-cangchuguanli",
+    "name": "仓储管理",
+    "spread": false,
+    "path": "/warehouse",
+    "servicePath": "",
+    "component": "views/warehouse/index",
+    "authority": null,
+    "redirect": null,
+    "keepAlive": "0",
+    "code": null,
+    "type": "0",
+    "label": "仓储管理",
+    "sort": 6000
+  },
+  {
+    "id": 823,
+    "parentId": -1,
+    "architectureId": 0,
+    "children": [
+      {
+        "id": 824,
+        "parentId": 823,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-dangan",
+        "name": "销量预测(锁定版)",
+        "spread": false,
+        "path": "/dataAnalysis/salesForecast/list",
+        "servicePath": "",
+        "component": "views/dataAnalysis/salesForecast/list",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "销量预测(锁定版)",
+        "sort": 1
+      },
+      {
+        "id": 864,
+        "parentId": 823,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-dangan",
+        "name": "销量预测(备货版)",
+        "spread": false,
+        "path": "/dataAnalysis/salesForecastPlan/list",
+        "servicePath": "",
+        "component": "views/dataAnalysis/salesForecastPlan/list",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "销量预测(备货版)",
+        "sort": 1
+      }
+    ],
+    "icon": "el-icon-coin",
+    "name": "数据分析",
+    "spread": false,
+    "path": "/dataAnalysis",
+    "servicePath": "",
+    "component": "views/dataAnalysis/index",
+    "authority": null,
+    "redirect": null,
+    "keepAlive": "0",
+    "code": null,
+    "type": "0",
+    "label": "数据分析",
+    "sort": 6300
+  },
+  {
+    "id": 225,
+    "parentId": -1,
+    "architectureId": 0,
+    "children": [
+      {
+        "id": 238,
+        "parentId": 225,
+        "architectureId": 0,
+        "children": [
+          {
+            "id": 324,
+            "parentId": 238,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-tiaobochuku",
+            "name": "国内调平台",
+            "spread": false,
+            "path": "/logistics/tmstransfer/2",
+            "servicePath": "",
+            "component": "views/logistics/transfer/tmstransfer/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "国内调平台",
+            "sort": 1
+          },
+          {
+            "id": 661,
+            "parentId": 238,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-tiaobochuku",
+            "name": "头程调拨",
+            "spread": false,
+            "path": "/logistics/tmstransfer/fristMileTransfer",
+            "servicePath": "",
+            "component": "views/logistics/transfer/fristMileTransfer/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "头程调拨",
+            "sort": 1
+          },
+          {
+            "id": 765,
+            "parentId": 238,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-tiaobochuku",
+            "name": "尾程调拨",
+            "spread": false,
+            "path": "/logistics/tmstransfer/lastMileTransfer",
+            "servicePath": "",
+            "component": "views/logistics/transfer/lastMileTransfer/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": null,
+            "code": null,
+            "type": "0",
+            "label": "尾程调拨",
+            "sort": 1
+          },
+          {
+            "id": 323,
+            "parentId": 238,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-tiaobochuku",
+            "name": "国内调海外",
+            "spread": false,
+            "path": "/logistics/tmstransfer/1",
+            "servicePath": "",
+            "component": "views/logistics/transfer/tmstransfer/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "国内调海外",
+            "sort": 2
+          },
+          {
+            "id": 325,
+            "parentId": 238,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-tiaobochuku",
+            "name": "海外调平台",
+            "spread": false,
+            "path": "/logistics/tmstransfer/3",
+            "servicePath": "",
+            "component": "views/logistics/transfer/tmstransfer/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "海外调平台",
+            "sort": 3
+          },
+          {
+            "id": 326,
+            "parentId": 238,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-tiaobochuku1",
+            "name": "海外互转",
+            "spread": false,
+            "path": "/logistics/tmstransfer/4",
+            "servicePath": "",
+            "component": "views/logistics/transfer/tmstransfer/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "海外互转",
+            "sort": 4
+          },
+          {
+            "id": 327,
+            "parentId": 238,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-tiaobochuku1",
+            "name": "国内互转",
+            "spread": false,
+            "path": "/logistics/tmstransfer/5",
+            "servicePath": "",
+            "component": "views/logistics/transfer/tmstransfer/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "国内互转",
+            "sort": 5
+          },
+          {
+            "name": "流程图\r",
+            "path": "/logistics/tmstransferviews/activiti/process/流程图\r"
+          },
+          {
+            "name": "任务办理\r",
+            "path": "/logistics/tmstransferviews/activiti/task/任务办理\r"
+          },
+          {
+            "name": "批注列表\r",
+            "path": "/logistics/tmstransferviews/activiti/task/批注列表\r"
+          },
+          {
+            "name": "流程图\r",
+            "path": "/logistics/tmstransferviews/activiti/task/流程图\r"
+          },
+          {
+            "name": "title\r",
+            "path": "/logistics/tmstransferviews/admin/fieldDescription/title\r"
+          },
+          {
+            "name": "分配权限\r",
+            "path": "/logistics/tmstransferviews/admin/role/index/分配权限\r"
+          },
+          {
+            "name": "dialogTitle\r",
+            "path": "/logistics/tmstransferviews/adminUser/adminGroup/index/dialogTitle\r"
+          },
+          {
+            "name": "新增\r",
+            "path": "/logistics/tmstransferviews/adminUser/adminOrganize/index/新增\r"
+          },
+          {
+            "name": "编辑\r",
+            "path": "/logistics/tmstransferviews/adminUser/adminOrganize/index/编辑\r"
+          },
+          {
+            "name": "职务\r",
+            "path": "/logistics/tmstransferviews/adminUser/adminPloyee/dialog/职务\r"
+          },
+          {
+            "name": "title\r",
+            "path": "/logistics/tmstransferviews/adminUser/externalUser/title\r"
+          },
+          {
+            "name": "关联功能角色\r",
+            "path": "/logistics/tmstransferviews/adminUser/externalUser/关联功能角色\r"
+          },
+          {
+            "name": "操作日志\r",
+            "path": "/logistics/tmstransferviews/baseSetup/bseoperatelog/index/操作日志\r"
+          },
+          {
+            "name": "handleAddOrUpdateTile\r",
+            "path": "/logistics/tmstransferviews/baseSetup/bseplatformsku/index/handleAddOrUpdateTile\r"
+          },
+          {
+            "name": "auditTitle\r",
+            "path": "/logistics/tmstransferviews/baseSetup/bseplatformsku/index/auditTitle\r"
+          },
+          {
+            "name": "店铺信息\r",
+            "path": "/logistics/tmstransferviews/baseSetup/bseplatformsku/index/店铺信息\r"
+          },
+          {
+            "name": "handleAddOrUpdateTile\r",
+            "path": "/logistics/tmstransferviews/baseSetup/bsestoresitmanage/index/handleAddOrUpdateTile\r"
+          },
+          {
+            "name": "授权\r",
+            "path": "/logistics/tmstransferviews/baseSetup/bsestoresitmanage/index/授权\r"
+          },
+          {
+            "name": "设置平台仓库映射\r",
+            "path": "/logistics/tmstransferviews/baseSetup/bsewarehouse/设置平台仓库映射\r"
+          },
+          {
+            "name": "导入\r",
+            "path": "/logistics/tmstransferviews/cockpit/commonImport/导入\r"
+          },
+          {
+            "name": "导入\r",
+            "path": "/logistics/tmstransferviews/cockpit/database/tradereport/导入\r"
+          },
+          {
+            "name": "操作日志\r",
+            "path": "/logistics/tmstransferviews/cockpit/log/index/操作日志\r"
+          },
+          {
+            "name": "导入\r",
+            "path": "/logistics/tmstransferviews/cockpit/logictisCostImport/导入\r"
+          },
+          {
+            "name": "导入\r",
+            "path": "/logistics/tmstransferviews/cockpit/newCommonImport/导入\r"
+          },
+          {
+            "name": "提示\r",
+            "path": "/logistics/tmstransferviews/cockpit/newCommonImport/提示\r"
+          },
+          {
+            "name": "选择产品\r",
+            "path": "/logistics/tmstransferviews/cockpit/querySkuInfo/选择产品\r"
+          },
+          {
+            "name": "锁定销量预测\r",
+            "path": "/logistics/tmstransferviews/dataAnalysis/salesForecast/锁定销量预测\r"
+          },
+          {
+            "name": "查看\r",
+            "path": "/logistics/tmstransferviews/dataAnalysis/salesForecast/查看\r"
+          },
+          {
+            "name": "锁定销量预测\r",
+            "path": "/logistics/tmstransferviews/dataAnalysis/salesForecast/锁定销量预测\r"
+          },
+          {
+            "name": "锁定销量预测\r",
+            "path": "/logistics/tmstransferviews/dataAnalysis/salesForecastPlan/锁定销量预测\r"
+          },
+          {
+            "name": "查看\r",
+            "path": "/logistics/tmstransferviews/dataAnalysis/salesForecastPlan/查看\r"
+          },
+          {
+            "name": "锁定销量预测\r",
+            "path": "/logistics/tmstransferviews/dataAnalysis/salesForecastPlan/锁定销量预测\r"
+          },
+          {
+            "name": "关联信息\r",
+            "path": "/logistics/tmstransferviews/finance/financedeclarecustomrecordmanage/index/关联信息\r"
+          },
+          {
+            "name": "关联信息\r",
+            "path": "/logistics/tmstransferviews/finance/financedeclarecustomrecordmanage/index/关联信息\r"
+          },
+          {
+            "name": "报关信息\r",
+            "path": "/logistics/tmstransferviews/finance/financetaxrefundmanage/index/报关信息\r"
+          },
+          {
+            "name": "发票信息\r",
+            "path": "/logistics/tmstransferviews/finance/financetaxrefundmanage/index/发票信息\r"
+          },
+          {
+            "name": "关联信息\r",
+            "path": "/logistics/tmstransferviews/finance/findrawbackmanage/index/关联信息\r"
+          },
+          {
+            "name": "auditTitle\r",
+            "path": "/logistics/tmstransferviews/finance/invoicepool/index/auditTitle\r"
+          },
+          {
+            "name": "关联详情\r",
+            "path": "/logistics/tmstransferviews/finance/invoicepool/index/关联详情\r"
+          },
+          {
+            "name": "操作日志\r",
+            "path": "/logistics/tmstransferviews/finance/log/index/操作日志\r"
+          },
+          {
+            "name": "应收款去向\r",
+            "path": "/logistics/tmstransferviews/finance/poreceiveaccountdetail/index/应收款去向\r"
+          },
+          {
+            "name": "录入发票\r",
+            "path": "/logistics/tmstransferviews/finance/purchaseinvoice/index/录入发票\r"
+          },
+          {
+            "name": "录入发票\r",
+            "path": "/logistics/tmstransferviews/finance/purchaseinvoice/index/录入发票\r"
+          },
+          {
+            "name": "报关单信息\r",
+            "path": "/logistics/tmstransferviews/finance/purchaseinvoice/outQuantityInfo/报关单信息\r"
+          },
+          {
+            "name": "生成请款单\r",
+            "path": "/logistics/tmstransferviews/finance/purchasereconciliation/index/生成请款单\r"
+          },
+          {
+            "name": "!submitForm.id ? '添加费用类型' : '编辑费用类型'\r",
+            "path": "/logistics/tmstransferviews/financialStatements/firstlegcost/index/!submitForm.id ? '添加费用类型' : '编辑费用类型'\r"
+          },
+          {
+            "name": "进销存对账单-操作日志\r",
+            "path": "/logistics/tmstransferviews/financialStatements/purchaseSalesInventory/index/进销存对账单-操作日志\r"
+          },
+          {
+            "name": "工厂成本还原-操作日志\r",
+            "path": "/logistics/tmstransferviews/financialStatements/restoreIndonesianFactoryCost/index/工厂成本还原-操作日志\r"
+          },
+          {
+            "name": "生成配置\r",
+            "path": "/logistics/tmstransferviews/gen/index/生成配置\r"
+          },
+          {
+            "name": "操作日志\r",
+            "path": "/logistics/tmstransferviews/logistics/declareCustoms/cuslog/index/操作日志\r"
+          },
+          {
+            "name": "反审核\r",
+            "path": "/logistics/tmstransferviews/logistics/declareCustoms/customsList/index/反审核\r"
+          },
+          {
+            "name": "产品详情\r",
+            "path": "/logistics/tmstransferviews/logistics/declareCustoms/customsList/index/产品详情\r"
+          },
+          {
+            "name": "报关\r",
+            "path": "/logistics/tmstransferviews/logistics/declareCustoms/customsList/index/报关\r"
+          },
+          {
+            "name": "修改\r",
+            "path": "/logistics/tmstransferviews/logistics/declareCustoms/declaredetail/customsDeclaration/修改\r"
+          },
+          {
+            "name": "报关完成\r",
+            "path": "/logistics/tmstransferviews/logistics/declareCustoms/declaredetail/detail/报关完成\r"
+          },
+          {
+            "name": "title\r",
+            "path": "/logistics/tmstransferviews/logistics/importTariff/addTariffDialog/title\r"
+          },
+          {
+            "name": "投标\r",
+            "path": "/logistics/tmstransferviews/logistics/quoteManage/logisticsProviderBidding/投标\r"
+          },
+          {
+            "name": "查看详情\r",
+            "path": "/logistics/tmstransferviews/logistics/quoteManage/logisticsProviderBidding/查看详情\r"
+          },
+          {
+            "name": "title\r",
+            "path": "/logistics/tmstransferviews/logistics/quoteManage/logisticsProviderTendering/title\r"
+          },
+          {
+            "name": "确定中标物流商\r",
+            "path": "/logistics/tmstransferviews/logistics/quoteManage/logisticsProviderTendering/确定中标物流商\r"
+          },
+          {
+            "name": "查看详情\r",
+            "path": "/logistics/tmstransferviews/logistics/quoteManage/logisticsProviderTendering/查看详情\r"
+          },
+          {
+            "name": "修改中标物流商原因\r",
+            "path": "/logistics/tmstransferviews/logistics/quoteManage/logisticsProviderTendering/修改中标物流商原因\r"
+          },
+          {
+            "name": "按单号添加\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/fristMileTransfer/create/按单号添加\r"
+          },
+          {
+            "name": "提示\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/fristMileTransfer/index/提示\r"
+          },
+          {
+            "name": "强制完结\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/fristMileTransfer/index/强制完结\r"
+          },
+          {
+            "name": "锁定费用\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/fristMileTransfer/index/锁定费用\r"
+          },
+          {
+            "name": "确认发货\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/fristMileTransfer/index/确认发货\r"
+          },
+          {
+            "name": "人工关联单号\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/fristMileTransfer/index/人工关联单号\r"
+          },
+          {
+            "name": "确认入库\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/fristMileTransfer/index/确认入库\r"
+          },
+          {
+            "name": "录入费用\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/fristMileTransfer/index/录入费用\r"
+          },
+          {
+            "name": "录入调整费用\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/fristMileTransfer/index/录入调整费用\r"
+          },
+          {
+            "name": "导入费用\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/fristMileTransfer/index/导入费用\r"
+          },
+          {
+            "name": "上传对账单\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/fristMileTransfer/index/上传对账单\r"
+          },
+          {
+            "name": "添加产品\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/lastMileTransfer/create/添加产品\r"
+          },
+          {
+            "name": "提示\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/lastMileTransfer/index/提示\r"
+          },
+          {
+            "name": "强制完结\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/lastMileTransfer/index/强制完结\r"
+          },
+          {
+            "name": "锁定费用\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/lastMileTransfer/index/锁定费用\r"
+          },
+          {
+            "name": "确认发货\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/lastMileTransfer/index/确认发货\r"
+          },
+          {
+            "name": "人工关联单号\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/lastMileTransfer/index/人工关联单号\r"
+          },
+          {
+            "name": "确认入库\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/lastMileTransfer/index/确认入库\r"
+          },
+          {
+            "name": "录入费用\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/lastMileTransfer/index/录入费用\r"
+          },
+          {
+            "name": "录入调整费用\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/lastMileTransfer/index/录入调整费用\r"
+          },
+          {
+            "name": "导入费用\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/lastMileTransfer/index/导入费用\r"
+          },
+          {
+            "name": "上传对账单\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/lastMileTransfer/index/上传对账单\r"
+          },
+          {
+            "name": "选择产品\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/tmstransfer/detail/选择产品\r"
+          },
+          {
+            "name": "dialogTitil\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/tmstransfer/index/dialogTitil\r"
+          },
+          {
+            "name": "dialogTitil\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/tmstransfer/index/dialogTitil\r"
+          },
+          {
+            "name": "dialogTitil\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/tmstransfer/index/dialogTitil\r"
+          },
+          {
+            "name": "dialogTitil\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/tmstransfer/index/dialogTitil\r"
+          },
+          {
+            "name": "dialogTitil\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/tmstransfer/index/dialogTitil\r"
+          },
+          {
+            "name": "导入物流单号\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/tmstransfer/index/导入物流单号\r"
+          },
+          {
+            "name": "物流商维护\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/tmstransfer/index/物流商维护\r"
+          },
+          {
+            "name": "运输方式维护\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/tmstransfer/index/运输方式维护\r"
+          },
+          {
+            "name": "dialogTitil\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/tmstransfercost/index/dialogTitil\r"
+          },
+          {
+            "name": "导入物流单号\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/tmstransfercost/index/导入物流单号\r"
+          },
+          {
+            "name": "锁定费用\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/tmstransfercost/index/锁定费用\r"
+          },
+          {
+            "name": "异常处理\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/tmstransfercost/index/异常处理\r"
+          },
+          {
+            "name": "对账记录处理\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/tmstransfercost/index/对账记录处理\r"
+          },
+          {
+            "name": "预估记录处理\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/tmstransfercost/index/预估记录处理\r"
+          },
+          {
+            "name": "操作日志\r",
+            "path": "/logistics/tmstransferviews/logistics/transfer/tmstransferoperatelog/index/操作日志\r"
+          },
+          {
+            "name": "detailList[currentIndex]?.typeName\r",
+            "path": "/logistics/tmstransferviews/noticeCenter/detailList[currentIndex]?.typeName\r"
+          },
+          {
+            "name": "新增\r",
+            "path": "/logistics/tmstransferviews/order/afterOrderManage/addDialog/新增\r"
+          },
+          {
+            "name": "添加商品\r",
+            "path": "/logistics/tmstransferviews/order/afterOrderManage/addGiftWorkOrder/添加商品\r"
+          },
+          {
+            "name": "新增备注\r",
+            "path": "/logistics/tmstransferviews/order/afterOrderManage/addRemarkDialog/新增备注\r"
+          },
+          {
+            "name": "跟进退款\r",
+            "path": "/logistics/tmstransferviews/order/afterOrderManage/followRefundDialog/跟进退款\r"
+          },
+          {
+            "name": "跟进退货\r",
+            "path": "/logistics/tmstransferviews/order/afterOrderManage/followReturnDialog/跟进退货\r"
+          },
+          {
+            "name": "作废\r",
+            "path": "/logistics/tmstransferviews/order/afterOrderManage/invalidDialog/作废\r"
+          },
+          {
+            "name": "填写物流单号\r",
+            "path": "/logistics/tmstransferviews/order/afterOrderManage/logisticsNumberDialog/填写物流单号\r"
+          },
+          {
+            "name": "添加商品\r",
+            "path": "/logistics/tmstransferviews/order/afterOrderManage/manuallyAddDialog/添加商品\r"
+          },
+          {
+            "name": "撤销发货\r",
+            "path": "/logistics/tmstransferviews/order/invoiceManage/撤销发货\r"
+          },
+          {
+            "name": "查看物流轨迹\r",
+            "path": "/logistics/tmstransferviews/order/invoiceManage/查看物流轨迹\r"
+          },
+          {
+            "name": "标记发货提示\r",
+            "path": "/logistics/tmstransferviews/order/invoiceManage/标记发货提示\r"
+          },
+          {
+            "name": "预览\r",
+            "path": "/logistics/tmstransferviews/order/invoiceManage/imgDialog/预览\r"
+          },
+          {
+            "name": "添加商品\r",
+            "path": "/logistics/tmstransferviews/order/orderManage/addOrderManage/添加商品\r"
+          },
+          {
+            "name": "设置标签\r",
+            "path": "/logistics/tmstransferviews/order/orderManage/addOrderManage/设置标签\r"
+          },
+          {
+            "name": "修改SKU \r",
+            "path": "/logistics/tmstransferviews/order/orderManage/修改SKU \r"
+          },
+          {
+            "name": "确认订单\r",
+            "path": "/logistics/tmstransferviews/order/orderManage/确认订单\r"
+          },
+          {
+            "name": "确认订单\r",
+            "path": "/logistics/tmstransferviews/order/orderManage/确认订单\r"
+          },
+          {
+            "name": "生成发货单\r",
+            "path": "/logistics/tmstransferviews/order/orderManage/生成发货单\r"
+          },
+          {
+            "name": "标签搜索\r",
+            "path": "/logistics/tmstransferviews/order/orderManage/标签搜索\r"
+          },
+          {
+            "name": "设置标签\r",
+            "path": "/logistics/tmstransferviews/order/orderManage/设置标签\r"
+          },
+          {
+            "name": "修改SKU\r",
+            "path": "/logistics/tmstransferviews/order/orderManage/orderManageEdit/修改SKU\r"
+          },
+          {
+            "name": "修改地址\r",
+            "path": "/logistics/tmstransferviews/order/orderManage/orderManageEdit/修改地址\r"
+          },
+          {
+            "name": "新增备注\r",
+            "path": "/logistics/tmstransferviews/order/orderManage/orderManageEdit/新增备注\r"
+          },
+          {
+            "name": "dialogTitle\r",
+            "path": "/logistics/tmstransferviews/order/orderRule/orderRuleComponents/action/dialogTitle\r"
+          },
+          {
+            "name": "添加核价需求\r",
+            "path": "/logistics/tmstransferviews/product/linkSkuManage/添加核价需求\r"
+          },
+          {
+            "name": "核价\r",
+            "path": "/logistics/tmstransferviews/product/linkSkuManage/核价\r"
+          },
+          {
+            "name": "分配运营\r",
+            "path": "/logistics/tmstransferviews/product/linkSkuManage/分配运营\r"
+          },
+          {
+            "name": "运营变更记录\r",
+            "path": "/logistics/tmstransferviews/product/linkSkuManage/运营变更记录\r"
+          },
+          {
+            "name": "操作日志\r",
+            "path": "/logistics/tmstransferviews/product/linkSkuManage/操作日志\r"
+          },
+          {
+            "name": "title\r",
+            "path": "/logistics/tmstransferviews/product/linkSkuManage/title\r"
+          },
+          {
+            "name": "modalObj.title\r",
+            "path": "/logistics/tmstransferviews/product/prdattribute/attrdailog/modalObj.title\r"
+          },
+          {
+            "name": "关联SKU信息\r",
+            "path": "/logistics/tmstransferviews/product/prdcustomselements/ShowSkuInfo/关联SKU信息\r"
+          },
+          {
+            "name": "文件列表\r",
+            "path": "/logistics/tmstransferviews/product/prddetail/index/文件列表\r"
+          },
+          {
+            "name": "修改\r",
+            "path": "/logistics/tmstransferviews/product/prddetail/index/修改\r"
+          },
+          {
+            "name": "编辑基本信息\r",
+            "path": "/logistics/tmstransferviews/product/prdlist/prdcreate/createprd/编辑基本信息\r"
+          },
+          {
+            "name": "上传图片\r",
+            "path": "/logistics/tmstransferviews/product/prdlist/prdcreate/createprd/上传图片\r"
+          },
+          {
+            "name": "批量上传图片\r",
+            "path": "/logistics/tmstransferviews/product/prdlist/prdcreate/createprd/批量上传图片\r"
+          },
+          {
+            "name": "showImageName\r",
+            "path": "/logistics/tmstransferviews/product/prdlist/prdcreate/createprd/showImageName\r"
+          },
+          {
+            "name": "查看文件\r",
+            "path": "/logistics/tmstransferviews/product/prdlist/prdcreate/createprd/查看文件\r"
+          },
+          {
+            "name": "查看文件\r",
+            "path": "/logistics/tmstransferviews/product/prdlist/prdcreate/createprd/查看文件\r"
+          },
+          {
+            "name": "操作日志\r",
+            "path": "/logistics/tmstransferviews/product/prdoperatelog/index/操作日志\r"
+          },
+          {
+            "name": "绑定链接关系\r",
+            "path": "/logistics/tmstransferviews/product/prdsalegrossprofit/bindingPriceDialog/绑定链接关系\r"
+          },
+          {
+            "name": "输入SPU或SKU\r",
+            "path": "/logistics/tmstransferviews/product/prdsalegrossprofit/prdcreate/addmeasuremen/输入SPU或SKU\r"
+          },
+          {
+            "name": "categoryDialogTitle\r",
+            "path": "/logistics/tmstransferviews/product/prdskucategory/index/categoryDialogTitle\r"
+          },
+          {
+            "name": "新增\r",
+            "path": "/logistics/tmstransferviews/product/temu/新增\r"
+          },
+          {
+            "name": "价格修改\r",
+            "path": "/logistics/tmstransferviews/product/temu/价格修改\r"
+          },
+          {
+            "name": "操作日志\r",
+            "path": "/logistics/tmstransferviews/product/temu/操作日志\r"
+          },
+          {
+            "name": "已关联链接\r",
+            "path": "/logistics/tmstransferviews/productCosting/costingList/已关联链接\r"
+          },
+          {
+            "name": "添加核价需求\r",
+            "path": "/logistics/tmstransferviews/productCosting/costingRequire/添加核价需求\r"
+          },
+          {
+            "name": "核价需求-驳回\r",
+            "path": "/logistics/tmstransferviews/productCosting/costingRequire/核价需求-驳回\r"
+          },
+          {
+            "name": "预览\r",
+            "path": "/logistics/tmstransferviews/purchase/commercialInvoice/imgDialog/预览\r"
+          },
+          {
+            "name": "上传文件\r",
+            "path": "/logistics/tmstransferviews/purchase/commercialInvoice/index/上传文件\r"
+          },
+          {
+            "name": "财务审核\r",
+            "path": "/logistics/tmstransferviews/purchase/commercialInvoice/index/财务审核\r"
+          },
+          {
+            "name": "批量上传合同\r",
+            "path": "/logistics/tmstransferviews/purchase/contract/batchUploadContract/批量上传合同\r"
+          },
+          {
+            "name": "预览\r",
+            "path": "/logistics/tmstransferviews/purchase/contract/imgDialog/预览\r"
+          },
+          {
+            "name": "导入询价单结果\r",
+            "path": "/logistics/tmstransferviews/purchase/inquiryorder/create/导入询价单结果\r"
+          },
+          {
+            "name": "选择商品\r",
+            "path": "/logistics/tmstransferviews/purchase/inquiryorder/create/选择商品\r"
+          },
+          {
+            "name": "预览\r",
+            "path": "/logistics/tmstransferviews/purchase/inquiryorder/imgDialog/预览\r"
+          },
+          {
+            "name": "操作日志\r",
+            "path": "/logistics/tmstransferviews/purchase/log/index/操作日志\r"
+          },
+          {
+            "name": "批量编辑成本\r",
+            "path": "/logistics/tmstransferviews/purchase/maintainInternalTransactionCost/index/批量编辑成本\r"
+          },
+          {
+            "name": "选择商品\r",
+            "path": "/logistics/tmstransferviews/purchase/organizeSettlement/create/选择商品\r"
+          },
+          {
+            "name": "选择商品\r",
+            "path": "/logistics/tmstransferviews/purchase/organizeSettlement/edit/选择商品\r"
+          },
+          {
+            "name": "rsAddForm.id ? '编辑结算关系' : '添加结算关系'\r",
+            "path": "/logistics/tmstransferviews/purchase/organizeSettlement/index/rsAddForm.id ? '编辑结算关系' : '添加结算关系'\r"
+          },
+          {
+            "name": "获取历史采购价\r",
+            "path": "/logistics/tmstransferviews/purchase/pochange/获取历史采购价\r"
+          },
+          {
+            "name": "编辑备注\r",
+            "path": "/logistics/tmstransferviews/purchase/poorder/编辑备注\r"
+          },
+          {
+            "name": "paymentTitle\r",
+            "path": "/logistics/tmstransferviews/purchase/popayment/detail/paymentTitle\r"
+          },
+          {
+            "name": "paymentTitle\r",
+            "path": "/logistics/tmstransferviews/purchase/popayment/index/paymentTitle\r"
+          },
+          {
+            "name": "请款比例\r",
+            "path": "/logistics/tmstransferviews/purchase/porequest/detail/请款比例\r"
+          },
+          {
+            "name": "采购记录\r",
+            "path": "/logistics/tmstransferviews/purchase/porequest/detail/采购记录\r"
+          },
+          {
+            "name": "verifyTitle\r",
+            "path": "/logistics/tmstransferviews/purchase/porequest/index/verifyTitle\r"
+          },
+          {
+            "name": "查看采购单号\r",
+            "path": "/logistics/tmstransferviews/purchase/porequest/index/查看采购单号\r"
+          },
+          {
+            "name": "设置期望付款时间\r",
+            "path": "/logistics/tmstransferviews/purchase/porequest/index/设置期望付款时间\r"
+          },
+          {
+            "name": "商品导入\r",
+            "path": "/logistics/tmstransferviews/purchase/porequisiton/create/商品导入\r"
+          },
+          {
+            "name": "商品导入\r",
+            "path": "/logistics/tmstransferviews/purchase/porequisiton/detail/商品导入\r"
+          },
+          {
+            "name": "历史价格信息\r",
+            "path": "/logistics/tmstransferviews/purchase/posupplierskuprice/priceHistory/历史价格信息\r"
+          },
+          {
+            "name": "预览\r",
+            "path": "/logistics/tmstransferviews/purchase/statement/imgDialog/预览\r"
+          },
+          {
+            "name": "上传文件\r",
+            "path": "/logistics/tmstransferviews/purchase/statement/index/上传文件\r"
+          },
+          {
+            "name": "财务审核\r",
+            "path": "/logistics/tmstransferviews/purchase/statement/index/财务审核\r"
+          },
+          {
+            "name": "stockTableTitle\r",
+            "path": "/logistics/tmstransferviews/report/stockviewreport/stockTableTitle\r"
+          },
+          {
+            "name": "关联单号\r",
+            "path": "/logistics/tmstransferviews/report/stockviewreport/关联单号\r"
+          },
+          {
+            "name": "transferOnwayTitle\r",
+            "path": "/logistics/tmstransferviews/report/stockviewreport/transferOnwayTitle\r"
+          },
+          {
+            "name": "FBA库存\r",
+            "path": "/logistics/tmstransferviews/report/stockviewreport/FBA库存\r"
+          },
+          {
+            "name": "FBA销量详情\r",
+            "path": "/logistics/tmstransferviews/report/stockviewreport/FBA销量详情\r"
+          },
+          {
+            "name": "title\r",
+            "path": "/logistics/tmstransferviews/report/storageAgeQuery/detailDialog/title\r"
+          },
+          {
+            "name": "title\r",
+            "path": "/logistics/tmstransferviews/report/supplyChainDataExport/exportDialog/title\r"
+          },
+          {
+            "name": "title\r",
+            "path": "/logistics/tmstransferviews/ruleConfig/prdCalcRule/commonEditDialog/commonEditDialog/title\r"
+          },
+          {
+            "name": "title\r",
+            "path": "/logistics/tmstransferviews/ruleConfig/prdCalcRule/title\r"
+          },
+          {
+            "name": "操作日志\r",
+            "path": "/logistics/tmstransferviews/ruleConfig/prdCalcRule/prdCalcRuleOperateLog/index/操作日志\r"
+          },
+          {
+            "name": "操作日志\r",
+            "path": "/logistics/tmstransferviews/supplier/log/index/操作日志\r"
+          },
+          {
+            "name": "confrimTitle\r",
+            "path": "/logistics/tmstransferviews/supplier/posupplier/supplyTaxIndex/confrimTitle\r"
+          },
+          {
+            "name": "auditTitle\r",
+            "path": "/logistics/tmstransferviews/supplier/posupplieraccount/index/auditTitle\r"
+          },
+          {
+            "name": "historyDataTitle\r",
+            "path": "/logistics/tmstransferviews/supplier/posupplieraccount/index/historyDataTitle\r"
+          },
+          {
+            "name": "historyDataTitle\r",
+            "path": "/logistics/tmstransferviews/supplier/posupplieraccount/index/historyDataTitle\r"
+          },
+          {
+            "name": "dialogTitle\r",
+            "path": "/logistics/tmstransferviews/supplier/posuppliercontacts/index/dialogTitle\r"
+          },
+          {
+            "name": "dialogTitle\r",
+            "path": "/logistics/tmstransferviews/supplier/posupplierOther/index/dialogTitle\r"
+          },
+          {
+            "name": "选择产品\r",
+            "path": "/logistics/tmstransferviews/warehouse/otherinstock/detail/选择产品\r"
+          },
+          {
+            "name": "选择产品\r",
+            "path": "/logistics/tmstransferviews/warehouse/otherOutStock/detail/选择产品\r"
+          },
+          {
+            "name": "isEdit ? '编辑' : '新增'\r",
+            "path": "/logistics/tmstransferviews/warehouse/platformSafetyStock/isEdit ? '编辑' : '新增'\r"
+          },
+          {
+            "name": "isEdit ? '编辑' : '新增'\r",
+            "path": "/logistics/tmstransferviews/warehouse/safetyStock/isEdit ? '编辑' : '新增'\r"
+          },
+          {
+            "name": "title\r",
+            "path": "/logistics/tmstransferviews/warehouse/wmsoperatelog/title\r"
+          },
+          {
+            "name": "送货产品详情\r",
+            "path": "/logistics/tmstransferviews/warehouse/wmssign/deliveryDetail/送货产品详情\r"
+          },
+          {
+            "name": "出入库记录\r",
+            "path": "/logistics/tmstransferviews/warehouse/wmsstockrecord/出入库记录\r"
+          }
+        ],
+        "icon": "icon-diaoboguanli",
+        "name": "调拨管理",
+        "spread": false,
+        "path": "/logistics/tmstransfer",
+        "servicePath": "",
+        "component": "",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "调拨管理",
+        "sort": 1
+      },
+      {
+        "id": 844,
+        "parentId": 225,
+        "architectureId": 0,
+        "children": [],
+        "icon": "el-icon-school",
+        "name": "进口关税率",
+        "spread": false,
+        "path": "/logistics/importTariff",
+        "servicePath": "",
+        "component": "views/logistics/importTariff/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "进口关税率",
+        "sort": 1
+      },
+      {
+        "id": 898,
+        "parentId": 225,
+        "architectureId": 0,
+        "children": [
+          {
+            "id": 899,
+            "parentId": 898,
+            "architectureId": 0,
+            "children": [],
+            "icon": "el-icon-news",
+            "name": "物流商招标",
+            "spread": false,
+            "path": "/logistics/quoteManage/logisticsProviderTendering/list",
+            "servicePath": "",
+            "component": "views/logistics/quoteManage/logisticsProviderTendering/list",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "物流商招标",
+            "sort": 1
+          },
+          {
+            "id": 910,
+            "parentId": 898,
+            "architectureId": 0,
+            "children": [],
+            "icon": "el-icon-receiving",
+            "name": "物流商投标",
+            "spread": false,
+            "path": "/logistics/quoteManage/logisticsProviderBidding/list",
+            "servicePath": "",
+            "component": "views/logistics/quoteManage/logisticsProviderBidding/list",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "物流商投标",
+            "sort": 1
+          }
+        ],
+        "icon": "icon-baobiao",
+        "name": "报价管理",
+        "spread": false,
+        "path": "/logistics/quoteManage",
+        "servicePath": "",
+        "component": "views/logistics/quoteManage",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "报价管理",
+        "sort": 1
+      },
+      {
+        "id": 226,
+        "parentId": 225,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/declareCustoms/detail/:id/:customsType",
+            "name": "报关详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/logistics/declareCustoms"
+            }
+          }
+        ],
+        "icon": "icon-baoguan",
+        "name": "报关管理",
+        "spread": false,
+        "path": "/logistics/declareCustoms",
+        "servicePath": "",
+        "component": "views/logistics/declareCustoms/customsList/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "报关管理",
+        "sort": 2
+      },
+      {
+        "id": 422,
+        "parentId": 225,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-wuliufeiyong",
+        "name": "物流费用对账",
+        "spread": false,
+        "path": "/logistics/tmstransfercost",
+        "servicePath": "",
+        "component": "views/logistics/transfer/tmstransfercost/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "物流费用对账",
+        "sort": 8
+      },
+      {
+        "id": 748,
+        "parentId": 225,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-fapiao1",
+        "name": "物流费用类型",
+        "spread": false,
+        "path": "/logistics/firstlegcost",
+        "servicePath": "",
+        "component": "views/financialStatements/firstlegcost/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "物流费用类型",
+        "sort": 9
+      }
+    ],
+    "icon": "icon-wuliuguanli",
+    "name": "物流管理",
+    "spread": false,
+    "path": "/logistics",
+    "servicePath": "",
+    "component": "views/logistics/index",
+    "authority": null,
+    "redirect": null,
+    "keepAlive": "0",
+    "code": null,
+    "type": "0",
+    "label": "物流管理",
+    "sort": 6500
+  },
+  {
+    "id": 235,
+    "parentId": -1,
+    "architectureId": 0,
+    "children": [
+      {
+        "id": 243,
+        "parentId": 235,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-duizhang",
+        "name": "采购对账",
+        "spread": false,
+        "path": "/finance/purchasereconciliation",
+        "servicePath": "",
+        "component": "views/finance/purchasereconciliation/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "采购对账",
+        "sort": 1
+      },
+      {
+        "id": 241,
+        "parentId": 235,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "//requestDetail",
+            "name": "采购请款单详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/finance/porequest"
+            }
+          },
+          {
+            "path": "//print",
+            "name": "打印付款申请书",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/finance/porequest"
+            }
+          }
+        ],
+        "icon": "icon-qingkuanshenqing",
+        "name": "采购请款单",
+        "spread": false,
+        "path": "/finance/porequest",
+        "servicePath": "",
+        "component": "views/purchase/porequest/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "采购请款单",
+        "sort": 2
+      },
+      {
+        "id": 242,
+        "parentId": 235,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "//paymentDetail",
+            "name": "采购付款单详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/finance/popayment"
+            }
+          }
+        ],
+        "icon": "icon-fukuan",
+        "name": "采购付款单",
+        "spread": false,
+        "path": "/finance/popayment",
+        "servicePath": "",
+        "component": "views/purchase/popayment/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "采购付款单",
+        "sort": 2
+      },
+      {
+        "id": 244,
+        "parentId": 235,
+        "architectureId": 0,
+        "children": [],
+        "icon": "el-icon-document",
+        "name": "应收账款",
+        "spread": false,
+        "path": "/finance/poreceiveaccountdetail",
+        "servicePath": "",
+        "component": "views/finance/poreceiveaccountdetail/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "应收账款",
+        "sort": 4
+      },
+      {
+        "id": 249,
+        "parentId": 235,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-fapiao1",
+        "name": "采购发票",
+        "spread": false,
+        "path": "/finance/purchaseinvoice",
+        "servicePath": "",
+        "component": "views/finance/purchaseinvoice/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "采购发票",
+        "sort": 7
+      },
+      {
+        "id": 250,
+        "parentId": 235,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-fapiao",
+        "name": "发票池",
+        "spread": false,
+        "path": "/finance/invoicepool",
+        "servicePath": "",
+        "component": "views/finance/invoicepool/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "发票池",
+        "sort": 8
+      },
+      {
+        "id": 251,
+        "parentId": 235,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-tax-return",
+        "name": "退税预审管理",
+        "spread": false,
+        "path": "/finance/financetaxrefundindex",
+        "servicePath": "",
+        "component": "views/finance/financetaxrefundindex/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "退税预审管理",
+        "sort": 8
+      },
+      {
+        "id": 253,
+        "parentId": 235,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-beian",
+        "name": "备案单证管理",
+        "spread": false,
+        "path": "/finance/financedeclarecustomrecordmanage",
+        "servicePath": "",
+        "component": "views/finance/financedeclarecustomrecordmanage/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "备案单证管理",
+        "sort": 8
+      }
+    ],
+    "icon": "icon-caiwuguanli",
+    "name": "财务管理",
+    "spread": false,
+    "path": "/finance",
+    "servicePath": "",
+    "component": "finance",
+    "authority": null,
+    "redirect": null,
+    "keepAlive": "0",
+    "code": null,
+    "type": "0",
+    "label": "财务管理",
+    "sort": 8000
+  },
+  {
+    "id": 725,
+    "parentId": -1,
+    "architectureId": 0,
+    "children": [
+      {
+        "id": 727,
+        "parentId": 725,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/financialStatements/purchaseSalesInventoryDetail/detail",
+            "name": "进销存对账表明细",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/financialStatements/purchaseSalesInventory"
+            }
+          }
+        ],
+        "icon": "icon-caigoudingdan",
+        "name": "进销存对账表",
+        "spread": false,
+        "path": "/financialStatements/purchaseSalesInventory",
+        "servicePath": "",
+        "component": "views/financialStatements/purchaseSalesInventory/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "进销存对账表",
+        "sort": 1
+      },
+      {
+        "id": 726,
+        "parentId": 725,
+        "architectureId": 0,
+        "children": [
+          {
+            "id": 729,
+            "parentId": 726,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-caigoudingdan",
+            "name": "应付单",
+            "spread": false,
+            "path": "/financialStatements/cost/accountsPayable",
+            "servicePath": "",
+            "component": "views/financialStatements/accountsPayable/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "应付单",
+            "sort": 1
+          },
+          {
+            "id": 730,
+            "parentId": 726,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-kulingfenxi",
+            "name": "收款单",
+            "spread": false,
+            "path": "/financialStatements/cost/receipt",
+            "servicePath": "",
+            "component": "views/financialStatements/receipt/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "收款单",
+            "sort": 2
+          },
+          {
+            "id": 731,
+            "parentId": 726,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-shoufacunchaxun",
+            "name": "收款退货单",
+            "spread": false,
+            "path": "/financialStatements/cost/receiptReturn",
+            "servicePath": "",
+            "component": "views/financialStatements/receiptReturn/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "收款退货单",
+            "sort": 3
+          },
+          {
+            "id": 732,
+            "parentId": 726,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-yuekucunzhouzhuanshuai",
+            "name": "成本调整单",
+            "spread": false,
+            "path": "/financialStatements/cost/costAdjustment",
+            "servicePath": "",
+            "component": "views/financialStatements/costAdjustment/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "成本调整单",
+            "sort": 4
+          }
+        ],
+        "icon": "el-icon-postcard",
+        "name": "费用单据",
+        "spread": false,
+        "path": "/financialStatements/cost",
+        "servicePath": "",
+        "component": "cost",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "费用单据",
+        "sort": 3
+      },
+      {
+        "id": 740,
+        "parentId": 725,
+        "architectureId": 0,
+        "children": [
+          {
+            "id": 741,
+            "parentId": 740,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-caigoudingdan",
+            "name": "采购入库单",
+            "spread": false,
+            "path": "/financialStatements/psi/purchaseInStock",
+            "servicePath": "",
+            "component": "views/financialStatements/purchaseInStock/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "采购入库单",
+            "sort": 1
+          },
+          {
+            "id": 742,
+            "parentId": 740,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-caigoudingdan",
+            "name": "采购退货单",
+            "spread": false,
+            "path": "/financialStatements/psi/purchaseReturn",
+            "servicePath": "",
+            "component": "views/financialStatements/purchaseReturn/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "采购退货单",
+            "sort": 2
+          },
+          {
+            "id": 743,
+            "parentId": 740,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-caigoudingdan",
+            "name": "销售出库单",
+            "spread": false,
+            "path": "/financialStatements/psi/salesOutStock",
+            "servicePath": "",
+            "component": "views/financialStatements/salesOutStock/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "销售出库单",
+            "sort": 3
+          },
+          {
+            "id": 744,
+            "parentId": 740,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-caigoudingdan",
+            "name": "销售退货单",
+            "spread": false,
+            "path": "/financialStatements/psi/salesReturn",
+            "servicePath": "",
+            "component": "views/financialStatements/salesReturn/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "销售退货单",
+            "sort": 4
+          },
+          {
+            "id": 745,
+            "parentId": 740,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-caigoudingdan",
+            "name": "其他入库单",
+            "spread": false,
+            "path": "/financialStatements/psi/otherInStock",
+            "servicePath": "",
+            "component": "views/financialStatements/otherInStock/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "其他入库单",
+            "sort": 5
+          },
+          {
+            "id": 746,
+            "parentId": 740,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-caigoudingdan",
+            "name": "其他出库单",
+            "spread": false,
+            "path": "/financialStatements/psi/otherOutStock",
+            "servicePath": "",
+            "component": "views/financialStatements/otherOutStock/index",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "其他出库单",
+            "sort": 6
+          }
+        ],
+        "icon": "el-icon-postcard",
+        "name": "进销存单据",
+        "spread": false,
+        "path": "/financialStatements/psi",
+        "servicePath": "",
+        "component": "psi",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "进销存单据",
+        "sort": 4
+      }
+    ],
+    "icon": "el-icon-notebook-2",
+    "name": "业财融合",
+    "spread": false,
+    "path": "/financialStatements",
+    "servicePath": "",
+    "component": "financialStatements",
+    "authority": null,
+    "redirect": null,
+    "keepAlive": "0",
+    "code": null,
+    "type": "0",
+    "label": "业财融合",
+    "sort": 8100
+  },
+  {
+    "id": 735,
+    "parentId": -1,
+    "architectureId": 0,
+    "children": [
+      {
+        "id": 736,
+        "parentId": 735,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-caigoujiamubiao",
+        "name": "组织间结算价目",
+        "spread": false,
+        "path": "/transaction/organizeSettlement",
+        "servicePath": "",
+        "component": "views/purchase/organizeSettlement/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "组织间结算价目",
+        "sort": 1
+      },
+      {
+        "id": 846,
+        "parentId": 735,
+        "architectureId": 0,
+        "children": [],
+        "icon": "el-icon-sell",
+        "name": "内部交易成本维护",
+        "spread": false,
+        "path": "/transaction/maintainInternalTransactionCost",
+        "servicePath": "",
+        "component": "views/purchase/maintainInternalTransactionCost/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "内部交易成本维护",
+        "sort": 1
+      },
+      {
+        "id": 738,
+        "parentId": 735,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-caigoudingdan",
+        "name": "内部采购订单",
+        "spread": false,
+        "path": "/transaction/purchase/list",
+        "servicePath": "",
+        "component": "views/internalTransaction/purchase/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "内部采购订单",
+        "sort": 2
+      },
+      {
+        "id": 739,
+        "parentId": 735,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-tuihuo",
+        "name": "内部采购退货订单",
+        "spread": false,
+        "path": "/transaction/purchaseReturn/list",
+        "servicePath": "",
+        "component": "views/internalTransaction/purchaseReturn/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "内部采购退货订单",
+        "sort": 4
+      },
+      {
+        "id": 788,
+        "parentId": 735,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/transaction/statementDetail/detail",
+            "name": "供应商对账单详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/transaction/statement"
+            }
+          }
+        ],
+        "icon": "icon-duizhang",
+        "name": "内部供应商对账单",
+        "spread": false,
+        "path": "/transaction/statement",
+        "servicePath": "",
+        "component": "views/purchase/statement/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "内部供应商对账单",
+        "sort": 21
+      },
+      {
+        "id": 789,
+        "parentId": 735,
+        "architectureId": 0,
+        "children": [
+          {
+            "path": "/transaction/commercialInvoiceDetail/detail",
+            "name": "商业发票详情",
+            "meta": {
+              "keepAlive": true,
+              "parentPath": "/transaction/commercialInvoice"
+            }
+          }
+        ],
+        "icon": "icon-fapiao1",
+        "name": "商业发票",
+        "spread": false,
+        "path": "/transaction/commercialInvoice",
+        "servicePath": "",
+        "component": "views/purchase/commercialInvoice/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "商业发票",
+        "sort": 21
+      }
+    ],
+    "icon": "el-icon-connection",
+    "name": "内部交易",
+    "spread": false,
+    "path": "/transaction",
+    "servicePath": "",
+    "component": "transaction",
+    "authority": null,
+    "redirect": null,
+    "keepAlive": "0",
+    "code": null,
+    "type": "0",
+    "label": "内部交易",
+    "sort": 8200
+  },
+  {
+    "id": 426,
+    "parentId": -1,
+    "architectureId": 0,
+    "children": [
+      {
+        "id": 427,
+        "parentId": 426,
+        "architectureId": 0,
+        "children": [
+          {
+            "id": 433,
+            "parentId": 427,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-jingyingfenxi",
+            "name": "经营情况",
+            "spread": false,
+            "path": "/cockpit/analysis/businessAnalysis",
+            "servicePath": "",
+            "component": "views/cockpit/analysis/businessAnalysis",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "经营情况",
+            "sort": 1
+          }
+        ],
+        "icon": "icon-fenxitongji",
+        "name": "分析统计",
+        "spread": false,
+        "path": "/cockpit/analysis",
+        "servicePath": "",
+        "component": "views/cockpit/analysis/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "分析统计",
+        "sort": 1
+      },
+      {
+        "id": 428,
+        "parentId": 426,
+        "architectureId": 0,
+        "children": [
+          {
+            "id": 429,
+            "parentId": 428,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-shanghujiaoyibaogao",
+            "name": "交易报告管理",
+            "spread": false,
+            "path": "/cockpit/database/tradereport",
+            "servicePath": "",
+            "component": "views/cockpit/database/tradereport",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "交易报告管理",
+            "sort": 1
+          },
+          {
+            "id": 430,
+            "parentId": 428,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-chengben",
+            "name": "SKU信息",
+            "spread": false,
+            "path": "/cockpit/database/skufee",
+            "servicePath": "",
+            "component": "views/cockpit/database/skufee",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "SKU信息",
+            "sort": 2
+          },
+          {
+            "id": 432,
+            "parentId": 428,
+            "architectureId": 0,
+            "children": [],
+            "icon": "icon-feiyong",
+            "name": "费用维护",
+            "spread": false,
+            "path": "/cockpit/database/costMaintenance",
+            "servicePath": "",
+            "component": "views/cockpit/database/costMaintenance",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "费用维护",
+            "sort": 3
+          }
+        ],
+        "icon": "icon-shujuweihu",
+        "name": "数据维护",
+        "spread": false,
+        "path": "/cockpit/database",
+        "servicePath": "",
+        "component": "views/cockpit/database/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "数据维护",
+        "sort": 2
+      }
+    ],
+    "icon": "icon-yibiaopan",
+    "name": "驾驶舱",
+    "spread": false,
+    "path": "/cockpit",
+    "servicePath": "",
+    "component": "views/cockpit/index",
+    "authority": null,
+    "redirect": null,
+    "keepAlive": "0",
+    "code": null,
+    "type": "0",
+    "label": "驾驶舱",
+    "sort": 8500
+  },
+  {
+    "id": 237,
+    "parentId": -1,
+    "architectureId": 0,
+    "children": [
+      {
+        "id": 858,
+        "parentId": 237,
+        "architectureId": 0,
+        "children": [],
+        "icon": "el-icon-sold-out",
+        "name": "数据导出",
+        "spread": false,
+        "path": "/report/supplyChainDataExport",
+        "servicePath": "",
+        "component": "views/report/supplyChainDataExport/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "数据导出",
+        "sort": 0
+      },
+      {
+        "id": 570,
+        "parentId": 237,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-caigoudingdan",
+        "name": "采购入库报表",
+        "spread": false,
+        "path": "/report//purchaseInbound",
+        "servicePath": "",
+        "component": "views/report/purchaseInboundReport",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "采购入库报表",
+        "sort": 1
+      },
+      {
+        "id": 805,
+        "parentId": 237,
+        "architectureId": 0,
+        "children": [],
+        "icon": "el-icon-s-order",
+        "name": "库龄查询 (新)",
+        "spread": false,
+        "path": "/report/storageAgeQuery",
+        "servicePath": "",
+        "component": "views/report/storageAgeQuery/index",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "库龄查询 (新)",
+        "sort": 1
+      },
+      {
+        "id": 806,
+        "parentId": 237,
+        "architectureId": 0,
+        "children": [],
+        "icon": "el-icon-s-data",
+        "name": "库龄报表",
+        "spread": false,
+        "path": "/report/storageAgeReport",
+        "servicePath": "",
+        "component": "views/report/storageAgeReport",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "库龄报表",
+        "sort": 1
+      },
+      {
+        "id": 876,
+        "parentId": 237,
+        "architectureId": 0,
+        "children": [],
+        "icon": "el-icon-data-analysis",
+        "name": "出运计划表",
+        "spread": false,
+        "path": "/report/shippingPlanReport",
+        "servicePath": "",
+        "component": "views/report/shippingPlanReport",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "出运计划表",
+        "sort": 1
+      },
+      {
+        "id": 883,
+        "parentId": 237,
+        "architectureId": 0,
+        "children": [],
+        "icon": "el-icon-document-add",
+        "name": "数据收集",
+        "spread": false,
+        "path": "/report/dataManage",
+        "servicePath": "",
+        "component": "views/report/dataManage",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "数据收集",
+        "sort": 2
+      },
+      {
+        "id": 454,
+        "parentId": 237,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-shoufajiansaomiao",
+        "name": "商品收发",
+        "spread": false,
+        "path": "/report/stockrecordreport",
+        "servicePath": "",
+        "component": "views/report/stockrecordreport",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "商品收发",
+        "sort": 9
+      },
+      {
+        "id": 707,
+        "parentId": 237,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-caigoudingdan",
+        "name": "数据分析",
+        "spread": false,
+        "path": "/report/dataAnalysis",
+        "servicePath": "",
+        "component": "views/report/dataAnalysis",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "数据分析",
+        "sort": 9
+      },
+      {
+        "id": 455,
+        "parentId": 237,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-kulingfenxi",
+        "name": "库龄查询",
+        "spread": false,
+        "path": "/report/stockagereport",
+        "servicePath": "",
+        "component": "views/report/stockagereport",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "库龄查询",
+        "sort": 10
+      },
+      {
+        "id": 457,
+        "parentId": 237,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-shoufacunchaxun",
+        "name": "库存报表",
+        "spread": false,
+        "path": "/report/stockreport",
+        "servicePath": "",
+        "component": "views/report/stockreport",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "库存报表",
+        "sort": 11
+      },
+      {
+        "id": 463,
+        "parentId": 237,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-yuekucunzhouzhuanshuai",
+        "name": "库存周转",
+        "spread": false,
+        "path": "/report/stockviewreport",
+        "servicePath": "",
+        "component": "views/report/stockviewreport",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "库存周转",
+        "sort": 12
+      },
+      {
+        "id": 561,
+        "parentId": 237,
+        "architectureId": 0,
+        "children": [],
+        "icon": "icon-fba",
+        "name": "FBA报表",
+        "spread": false,
+        "path": "/report/amazonfbafulfillmentinventoryhealthdata",
+        "servicePath": "",
+        "component": "views/report/amazonfbafulfillmentinventoryhealthdata",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "FBA报表",
+        "sort": 13
+      },
+      {
+        "id": 657,
+        "parentId": 237,
+        "architectureId": 0,
+        "children": [
+          {
+            "id": 658,
+            "parentId": 657,
+            "architectureId": 0,
+            "children": [],
+            "icon": null,
+            "name": "AmazonVC测算汇总报表",
+            "spread": false,
+            "path": "/report/prdsalegrossprofitReport/amazonVCReport",
+            "servicePath": "",
+            "component": "views/report/prdsalegrossprofitReport/amazonVCReport",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "AmazonVC测算汇总报表",
+            "sort": 1
+          },
+          {
+            "id": 659,
+            "parentId": 657,
+            "architectureId": 0,
+            "children": [],
+            "icon": null,
+            "name": "多平台测算汇总报表",
+            "spread": false,
+            "path": "/report/prdsalegrossprofitReport/mutiPlatformReport",
+            "servicePath": "",
+            "component": "views/report/prdsalegrossprofitReport/mutiPlatformReport",
+            "authority": null,
+            "redirect": null,
+            "keepAlive": "0",
+            "code": null,
+            "type": "0",
+            "label": "多平台测算汇总报表",
+            "sort": 2
+          }
+        ],
+        "icon": null,
+        "name": "产品毛利测算报表",
+        "spread": false,
+        "path": "/report/prdsalegrossprofitReport",
+        "servicePath": "",
+        "component": "prdsalegrossprofitReport",
+        "authority": null,
+        "redirect": null,
+        "keepAlive": "0",
+        "code": null,
+        "type": "0",
+        "label": "产品毛利测算报表",
+        "sort": 13
+      }
+    ],
+    "icon": "icon-baobiao",
+    "name": "报表管理",
+    "spread": false,
+    "path": "/report",
+    "servicePath": "",
+    "component": "report",
+    "authority": null,
+    "redirect": null,
+    "keepAlive": "0",
+    "code": null,
+    "type": "0",
+    "label": "报表管理",
+    "sort": 9500
+  }
+]

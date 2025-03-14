@@ -1,0 +1,11 @@
+@function pxToRem($px) {
+  @return calc(calc($px/2) / (37.5)) + rem;
+}
+
+[data-dpr] {
+  body,
+  .van-tabs__wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+}

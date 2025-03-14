@@ -1,0 +1,54 @@
+.delivery-wrapper {
+  .textCenter {
+    text-align: center;
+  }
+  .floatRight {
+    float: right;
+  }
+  .floatLeft {
+    float: left;
+  }
+  .rowBottom {
+    border-bottom: 2px solid #dcdfe6;
+    overflow: hidden;
+    padding-bottom: 5px;
+  }
+  .margginLR10 {
+    margin: 0px 10px 0px 10px;
+  }
+  .margginLR20 {
+    margin: 0px 20px 0px 20px;
+  }
+  .margginTB30 {
+    margin: 30px 0px 30px 0px;
+  }
+  .delivery-min-width {
+    display: inline-block;
+    min-width: 100px;
+    margin: 0 5px;
+  }
+  .el-table {
+    .el-form-item {
+      margin-bottom: 0;
+    }
+  }
+  .el-form-item__content {
+    line-height: 32px;
+  }
+  .delivery-person-info {
+    margin-top: 30px;
+    .el-form-item {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.subHight2 {
+  max-height: 500px;
+  max-width: 800px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  img {
+    width: 100%;
+  }
+}

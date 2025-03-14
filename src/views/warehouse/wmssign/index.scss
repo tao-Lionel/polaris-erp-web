@@ -1,0 +1,60 @@
+#sign {
+  .el-form-item {
+    margin-bottom: 0px;
+    display: inline-block;
+  }
+  .el-row {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .el-col {
+    border-radius: 4px;
+  }
+  .el-input {
+    min-width: 250px;
+  }
+  .float-left {
+    float: left;
+  }
+  .float_right {
+    float: right;
+  }
+  .color-warning {
+    color: #e6a23c;
+  }
+  .total-box {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+}
+
+// .avue-main{
+//   background: white;
+// }
+#signList {
+  .color-Warning {
+    color: #f90;
+    cursor: pointer;
+  }
+}
+
+#showDeliveryDetail {
+  .el-dialog__header {
+    height: 30px;
+    background: #e8ecef;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 1px solid #d2d2d2;
+  }
+  .el-dialog__footer {
+    padding: 20px 24px;
+    border-top: 1px solid #d2d2d2;
+    clear: both;
+    // background: #e8ecef;
+    border-radius: 0px 0px 4px 4px;
+  }
+  .el-dialog__body {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+}

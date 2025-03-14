@@ -1,0 +1,21 @@
+#customsDeclarationList {
+  height: 100%;
+  .el-dropdown {
+    vertical-align: top;
+  }
+  .el-dropdown + .el-dropdown {
+    margin-left: 15px;
+  }
+  .el-icon-arrow-down {
+    font-size: 12px;
+  }
+  .el-table td.is-center,
+  .el-table th.is-center {
+    text-align: center;
+  }
+  .dc-upload-wrapper {
+    .upload-demo + span {
+      display: block;
+    }
+  }
+}

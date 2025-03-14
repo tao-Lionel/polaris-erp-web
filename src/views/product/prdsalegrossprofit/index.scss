@@ -1,0 +1,34 @@
+#prdarchives {
+  // .avue-crud__header{
+  // display: none;
+  // }
+  .el-card__body {
+    position: relative;
+  }
+
+  @media screen and (max-width: 1080px) {
+    .archives-export {
+      margin: 0 30px;
+    }
+  }
+  .archives-export {
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .el-table__body {
+    .el-table_1_column_1,
+    .el-table_1_column_2,
+    .el-table_1_column_3 {
+      background: #fff;
+    }
+  }
+  .prd-skuname {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,169 @@
+@import "../../../style/base";
+#m_porequisition {
+  // 提出组件后的注释
+  // .van-tabs__wrap{
+  //     top: 0px !important;
+  //     position: fixed !important;
+  // }
+
+  // //顶部样式
+  // .van-tabs--line{
+  //     padding-top: pxToRem(200);
+  // }
+  // .van-tabs__wrap{
+  //     height: pxToRem(200);
+  // }
+  // .van-tab{
+  //     padding: 0 pxToRem(4);
+  // }
+  // .top{
+  //     height: pxToRem(80);
+  //     margin-top: pxToRem(20);
+  //     position: relative;
+  //     &::after{
+  //         display: block;
+  //         content:'';
+  //         border-top: pxToRem(8) dotted #e9e9ec;
+  //         position:relative;
+  //         top: -50%;
+  //         transform: translate(0,-60%);
+  //         z-index: 1;
+  //     }
+
+  //     .tag_class{
+  //         display: inline;
+  //         line-height: pxToRem(60);
+  //         padding: pxToRem(15) pxToRem(25);
+  //         border-radius: pxToRem(30);
+  //         background-color: #e9e9ec;
+  //         position: relative;
+  //         z-index: 2;
+  //         color: rgba(51,51,51,.85);
+  //         font-size: pxToRem(30);
+  //     }
+  //     // 小红点
+  //     // .dot{
+  //     //     &::before{
+  //     //         display: block;
+  //     //         content: '';
+  //     //         height: pxToRem(12);
+  //     //         width: pxToRem(12);
+  //     //         border-radius: pxToRem(6);
+  //     //         background-color: red;
+  //     //         position: absolute;
+  //     //         top: pxToRem(10);
+  //     //         right: pxToRem(12);
+  //     //     }
+  //     // }
+
+  //     .color_over{
+  //         background-color: #2a8efe;
+  //         color: #fff;
+  //     }
+  // }
+  // .tab_p{
+  //     font-size: pxToRem(28);
+  //     font-weight: bold;
+  // }
+  // //针对列表数不够的情况下不能左右操作滑动的问题
+  // .height_add{
+  //     height: calc(100vh - #{pxToRem(200)});
+  // }
+
+  //列表样式
+  .list_class {
+    background-color: #e5e8eb;
+    padding: pxToRem(23);
+    .van-cell {
+      margin-bottom: pxToRem(23);
+      border-radius: pxToRem(10);
+      P {
+        color: rgba(51, 51, 51, 0.85);
+        font-size: pxToRem(30);
+        line-height: pxToRem(56);
+      }
+      .re_no {
+        font-size: pxToRem(34);
+        font-weight: bold;
+        color: #333;
+        line-height: pxToRem(80);
+      }
+      .span_right {
+        float: right;
+        margin-right: pxToRem(10);
+      }
+    }
+  }
+
+  //弹框样式
+  .pop_quisition {
+    border-radius: pxToRem(40) pxToRem(40) 0 0;
+    color: rgba(51, 51, 51, 0.85);
+    font-size: pxToRem(30);
+    padding: pxToRem(40);
+    box-sizing: border-box;
+    .pop_close {
+      font-size: pxToRem(40);
+      float: right;
+    }
+    p {
+      font-size: pxToRem(34);
+      color: #333;
+      font-weight: bold;
+      line-height: pxToRem(100);
+    }
+    li {
+      line-height: pxToRem(70);
+      word-break: break-all;
+    }
+    .pop_bun {
+      margin-top: pxToRem(40);
+      button {
+        width: 40%;
+        height: pxToRem(90);
+        margin: 0 5%;
+        border-radius: pxToRem(10);
+      }
+    }
+    .pop_bun1 {
+      button {
+        width: 30%;
+        margin: 0;
+      }
+      button:nth-child(2) {
+        margin: 0 5%;
+      }
+    }
+    .pop_bun2 {
+      button {
+        margin: 0 30%;
+      }
+    }
+  }
+  .refuse_dialog {
+    .van-dialog__header {
+      padding-top: pxToRem(20);
+    }
+    textarea {
+      border: 1px solid #dcdfe6;
+      border-radius: pxToRem(4);
+      box-sizing: border-box;
+      padding: pxToRem(4);
+    }
+  }
+
+  // 指派采购弹框样式
+  .assigned_dialog {
+    top: 5%;
+    transform: translate3d(-50%, 0, 0);
+    .van-dialog__header {
+      padding-top: pxToRem(20);
+    }
+    .el-form-item {
+      margin-right: 0;
+    }
+    .el-form {
+      margin: pxToRem(15);
+    }
+  }
+}

@@ -1,0 +1,61 @@
+#print {
+  * {
+    // font-size: 14px;
+    font-family: STSong;
+  }
+  .box {
+    // width: 60%;
+    // margin-left: 15%;
+    // padding: 50px 35px 80px 30px;
+    background: #ffffff;
+  }
+  .title {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .prin-top {
+    display: flex;
+    padding-bottom: 20px;
+    p {
+      padding: 5px 0;
+    }
+  }
+  /* 重复段落格式 */
+  .block {
+    width: 100%;
+  }
+  .blod {
+    font-weight: bold;
+  }
+  ul {
+    padding-inline-start: 0px;
+  }
+  li {
+    list-style: none;
+  }
+
+  /* 表格 */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    // table-layout: fixed;
+  }
+  .table-center {
+    text-align: center;
+  }
+  // table,
+  // tr,
+  // td {
+  //   border: 1px solid black;
+  // }
+  td {
+    padding: 8px 10px;
+  }
+  .text-left {
+    text-align: left;
+  }
+  .margin-left-5 {
+    margin-left: 10px;
+  }
+}

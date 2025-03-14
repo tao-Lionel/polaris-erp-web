@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <title>北极星ERP</title>
+    <script src="https://cdn.bootcss.com/vConsole/3.2.0/vconsole.min.js"></script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+  </head>
+  <body onload="onload()">
+    <noscript>
+      <strong
+        >很抱歉，如果没有 JavaScript 支持，网站将不能正常工作。请启用浏览器的
+        JavaScript 然后继续。</strong
+      >
+    </noscript>
+    <p>正在打开...</p>
+    <button onclick="scanFn()">点击扫描</button>
+    <script>
+      var vConsole = new VConsole();
+      function onload() {
+        // var ticket = window.sessionStorage.getItem('ticket');
+        // if (ticket) {
+        //     ticket = JSON.parse(ticket);
+        //     console.log('ticket----:',ticket);
+        // wx.config(ticket.content);
+        /*const str = `jsapi_ticket=kgt8ON7yVITDhtdwci0qeQqH3mM9cA5KITVjPNqd4Dk0M1G_-OLU9VCZyPf8XBtLjmsSvm5Sh4Kc0QRqorL3hQ
+                    &noncestr=${nonceStr}
+                    &timestamp=${timestamp}
+                    &url=${window.location.origin}/barCode.html`;*/
+        wx.config({
+          beta: true,
+          debug: true,
+          appId: "ww0f3efc2873ad11c3",
+          timestamp: 1563001721,
+          nonceStr: "tdwci0qeQqH3mM9cA",
+          signature: "94e7ef51375701ec5283aad642ed1de87cd483ff",
+          jsApiList: ["checkJsApi", "scanQRCode"],
+        });
+
+        wx.error(function (res) {
+          console.log("error", res);
+        });
+
+        wx.ready(function (res) {
+          console.log("ready", res);
+          wx.checkJsApi({
+            jsApiList: ["qrCode", "barCode"],
+            success: function (res) {
+              alert("----------", JSON.stringify(res));
+            },
+          });
+        });
+      }
+      function scanFn() {
+        console.log(wx);
+        console.info("-------------------------------------");
+        wx.scanQRCode({
+          desc: "甜秘密创新",
+          needResult: 1, // 默认为0，扫描结果由企业微信处理，1则直接返回扫描结果，
+          scanType: ["barCode"], // 可以指定扫二维码还是条形码（一维码），默认二者都有
+          success: function (res) {
+            alert("扫码成功", res);
+            console.log("scanQRCode==success", res);
+            console.log(res);
+            // _this.signOrderNumber = res;
+          },
+          error: function (res) {
+            console.log("scanQRCode==err", res);
+            if (res.errMsg.indexOf("function_not_exist") > 0) {
+              alert("版本过低请升级");
+            }
+          },
+        });
+      }
+    </script>
+  </body>
+</html>

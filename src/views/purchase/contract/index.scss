@@ -1,0 +1,258 @@
+.contract-common {
+  font-size: 14px;
+  padding: 0px 24px 32px 24px;
+  background: #ffffff;
+  // font-family: STSong;
+  p {
+    padding-bottom: 14px;
+  }
+  .title {
+    line-height: 120px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .border-box {
+    width: 100%;
+    border: 1px solid #cdcdcd;
+    padding: 20px 20px 0px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .blod {
+    font-weight: bold;
+  }
+  .color-red {
+    color: red;
+  }
+  .box-title {
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  /* 重复段落格式 */
+  .block {
+    width: 100%;
+    margin-top: 32px;
+    ul {
+      padding-inline-start: 0px;
+      li {
+        list-style: none;
+        line-height: 22px;
+      }
+    }
+  }
+  .table-head {
+    background-color: #fafafa;
+  }
+  /* 表格 */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .table-center {
+    text-align: center;
+  }
+  table,
+  tr,
+  td {
+    border: 1px solid black;
+  }
+  td {
+    padding: 1rem 0 1rem 5px;
+  }
+  .text-left {
+    text-align: left;
+  }
+  /* 分页 */
+  // .page_break {
+  //   page-break-after: always;
+  // }
+}
+
+// 财务审核
+#approveContract {
+  height: 100%;
+  box-sizing: border-box;
+  .top {
+    height: 100%;
+    position: relative;
+  }
+  .top-inner {
+    height: calc(100% - 190px);
+    // margin-bottom: 160px;
+    .top-left {
+      height: 100%;
+
+      width: 50%;
+      display: inline-block;
+    }
+    .top-right {
+      height: 100%;
+      width: 50%;
+      display: inline-block;
+      padding-left: 0px;
+      padding-top: 0px;
+      vertical-align: top;
+    }
+    .is-always-shadow {
+      height: 100%;
+      .el-card__body {
+        height: 100%;
+        overflow-y: auto;
+      }
+    }
+  }
+  .title {
+    font-size: 16px;
+  }
+  .title::before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 14px;
+    background: #409eff;
+    position: relative;
+    top: -2px;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+  .top-p {
+    font-size: 14px;
+    color: #808080;
+    margin-bottom: 8px;
+  }
+  .el-table th {
+    background-color: #fafafa;
+  }
+  .title-wrapper {
+    padding: 12px 15px;
+    background: #f7f8fb;
+    border-bottom: 1px solid #e7ebef;
+    position: relative;
+    vertical-align: middle;
+  }
+  .border-rang textarea {
+    border: 0px;
+  }
+  .bottom {
+    padding-top: 0px;
+    position: relative;
+    top: -190px;
+    height: 190px;
+    box-sizing: border-box;
+  }
+  .img-box {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .basic-container:first-child {
+    height: 100%;
+  }
+}
+
+/**
+  .el-header,
+  .el-footer {
+    background-color: #b3c0d1;
+    color: #333;
+    text-align: center;
+    line-height: 60px;
+  }
+  .el-aside {
+    background-color: #d3dce6;
+    color: #333;
+    text-align: center;
+  //   line-height: 200px;
+  }
+
+  .el-main {
+    // background-color: #e9eef3;
+    color: #333;
+    text-align: center;
+    line-height: 160px;
+  }
+
+  body > .el-container {
+    margin-bottom: 40px;
+  }
+
+  .el-container:nth-child(5) .el-aside,
+  .el-container:nth-child(6) .el-aside {
+    line-height: 260px;
+  }
+
+  .el-container:nth-child(7) .el-aside {
+    line-height: 320px;
+  }
+
+.y-sys-contract{
+  display: flex;
+  width: 100%;
+  div{
+    flex: 1;
+  }
+}
+
+
+  .financialApprove {
+    width: 100%;
+    overflow: hidden;
+    border:1px solid #d4d2d2;
+    border-radius: 10px;
+    position: relative;
+    height: 200px;
+    margin-top: 20px;
+    li:first-child{
+        width: 20px;
+        padding: 30px 20px;
+        height: 200px;
+        border-right:1px solid #d4d2d2;
+        position: absolute;
+        left: 0;
+        
+    }
+    li:nth-child(2){
+        margin-left: 70px ;
+        height: 100%;
+        margin-right: 120px;
+      .el-textarea{
+        height: 100%;
+      }
+    }
+    li:last-child{
+      width: 20px;
+      height: 200px;
+      padding: 45px 20px;
+      top: 0;
+      position: absolute;
+      right: 50px;
+      border-left:1px solid #d4d2d2;
+  }
+
+  textarea{
+    width:100%;
+    height: 100%;
+    border: none;
+    resize: none;
+  }
+  }
+
+  .heigth_flow{
+    overflow: auto;
+    height: 600px;
+    max-height: 1000px;
+    margin: 5px;
+  }
+  .line_height{
+    line-height: 20px;
+  }
+  .text_left{
+    text-align: left;
+  }
+  
+
+
+*/
